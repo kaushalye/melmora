@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {Carousel, Container, Image, Col, Card} from 'react-bootstrap';
 
-
 class Home extends Component {
 
   constructor(props) {
@@ -61,15 +60,15 @@ class Home extends Component {
 
         <Container className="tileContainer" >
           <Container className="tile tileWide draw-border"> 
-            <Container className="tileHeader"> Vision </Container>
+            <Container className="tileHeader"><i className="fas fa-bullseye "  style= {{color: '#dd9a9a'}}></i> Vision </Container>
             <Container className="tileBody"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </Container>
           </Container>
           <Container className="tile tileWide draw-border"> 
-               <Container className="tileHeader"> Mission </Container>
+               <Container className="tileHeader"><i class="fas fa-tasks" style= {{color: 'orange'}}></i>  Mission </Container>
               <Container className="tileBody"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </Container>
           </Container>
           <Container className="tile tileWide draw-border"> 
-              <Container className="tileHeader"> Values </Container>
+              <Container className="tileHeader"><i class="fas fa-leaf" style= {{color: '#50eb38'}}></i>  Values </Container>
               <Container className="tileBody"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </Container>
           </Container>
         </Container>

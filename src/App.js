@@ -13,7 +13,9 @@ import {
 
 import './App.css';
 
+
 function App() {
+
   return (
     <Router>
       <Container className="full-height">
@@ -27,22 +29,21 @@ function App() {
               width="40"
               height="40"
             />
-            University of Moratuwa Alumni Association in Victoria
           </span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
           </Nav>
-          <Nav>
-            <Nav.Link href="/news">News</Nav.Link>
+          <Nav  >
+            <Nav.Link href="/news">Gallery</Nav.Link>
             <Nav.Link href="/schol">Scholarship</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
             <Nav.Link href="https://www.facebook.com/groups/melmora" target="_blank">
               <Image           
                 width="25" height="25"
-                src="/icons/fb.png"/>
+                src="/images/fb.png"/>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
