@@ -1,24 +1,57 @@
 import React, { Component } from 'react';
-import {Tabs, Tab, Container, Sonnet} from 'react-bootstrap';
+import {Tabs, Image, Container} from 'react-bootstrap';
 
 
 class News extends Component {
 
 
   render() {
-    const years = [2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012]
-    return (
-      <Container fluid="md">
-        <Tabs defaultActiveKey={years[0]} bg="dark">
-          {years.map(year => {
-            return (
-              <Tab eventKey={year} title={year}>
-                <Container>Info for {year} is here</Container>
-              </Tab>
-            );
-          })}
+    const news = [
+      {
+        title: 'Blood Donation',
+        year: 2020,
+        image: '/news/1.jpg'
+      },
+      {
+        title: 'Dinner Dance',
+        year: 2018,
+        image: '/news/2.jpg'
+      },
+      {
+        title: 'Summer Event',
+        year: 2017,
+        image: '/news/3.jpg'
+      },
+      {
+        title: 'Dinner Dance',
+        year: 2016,
+        image: '/news/4.jpg'
+      },
+      {
+        title: 'Summer Event',
+        year: 2016,
+        image: '/news/5.jpg'
+      },
+      {
+        title: 'Dinner Dance',
+        year: 2015,
+        image: '/news/6.jpg'
+      },
+    ];
 
-        </Tabs>
+    return (
+      
+      <Container className="nopadding cards-list">
+      {news.map(item => {
+       return (
+         <Container className="card 1">
+           <Container className="card_image"> <Image src={item.image} /> </Container>
+           <Container className="card_title title-white">
+             <p>{item.title}-{item.year}</p>
+           </Container>
+         </Container>
+       );
+     })}
       </Container>
 
     );

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Carousel, Container, Row, Col, Card} from 'react-bootstrap';
+import {Carousel, Container, Image, Col, Card} from 'react-bootstrap';
 
 
 class Home extends Component {
@@ -23,10 +23,21 @@ class Home extends Component {
 
   render() {
     const images = this.state.images;
-
+    const news = [
+      {
+        title: 'Blood Donation',
+        year: 2020,
+        image: '/news/1.jpg'
+      },
+      {
+        title: 'Dinner Dance',
+        year: 2021,
+        image: '/news/3.jpg'
+      }
+    ];
     return (
-      <Container className="nppadding">
-        <Container className="nppadding">
+      <Container className="nopadding">
+        <Container className="nopadding">
         {images.length > 0 && 
           <Carousel  className="newsslide" interval='4000'>
           {
@@ -47,25 +58,26 @@ class Home extends Component {
           
         </Carousel>}
         </Container>
-        {/* <Container className="normaltext">
-          <p>The University of Moratuwa Alumni Association in Victoria was officially formed in March 2012 at a general meeting held in Glen Waverley, Victoria, Australia. Prior to this, the organization functioned as an informal group called "MelMora". The MelMora group has been operational since early 2001.</p>
-          <p>Its primary objectives are to promote the interests of the University of Moratuwa as a pre-eminent centre of education, while providing a common forum for academic, professional and social interaction among graduates, staff and others associated with the University of Moratuwa, Sri Lanka.</p>
-        </Container> */}
-        <Container fluid="md">
-          <Row>
-            <Col className="tile draw-border">
-              <Container className="tileHeader"> Vision </Container>
-              <Container className="tileBody"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </Container>
-            </Col>
-            <Col className="tile draw-border">
-              <Container className="tileHeader"> Mission </Container>
-              <Container className="tileBody"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </Container>
-            </Col>
-            <Col className="tile draw-border">
+
+        <Container className="tileContainer" >
+          <Container className="tile tileWide draw-border"> 
+            <Container className="tileHeader"> Vision </Container>
+            <Container className="tileBody"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </Container>
+          </Container>
+          <Container className="tile tileWide draw-border"> 
+               <Container className="tileHeader"> Mission </Container>
+              <Container className="tileBody"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </Container>
+          </Container>
+          <Container className="tile tileWide draw-border"> 
               <Container className="tileHeader"> Values </Container>
-              <Container className="tileBody"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </Container>
-            </Col>
-          </Row>
+              <Container className="tileBody"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </Container>
+          </Container>
+        </Container>
+        <Container className="tileContainer" >
+          <Container className="tileWide draw-border">
+            <Container className="tileHeader"> Upcoming Events </Container>
+            <Container className="tileBody"></Container>
+          </Container>
         </Container>
       </Container>
 

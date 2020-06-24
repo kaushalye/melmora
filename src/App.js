@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import { Container, Nav, Navbar, Image} from 'react-bootstrap';
 import Home from './components/home'
 import News from './components/news'
+import Schol from './components/schol'
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -34,7 +36,6 @@ function App() {
           </Nav>
           <Nav>
             <Nav.Link href="/news">News</Nav.Link>
-            <Nav.Link href="/events">Events</Nav.Link>
             <Nav.Link href="/schol">Scholarship</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
@@ -54,17 +55,14 @@ function App() {
           <Route path="/news">
             <News/>
           </Route>
-          <Route path="/events">
-            <Container>Events</Container>
-          </Route>
           <Route path="/schol">
-            <Container>Schols</Container>
+            <Schol/>
           </Route>
           <Route path="/about">
-            <Container>About</Container>
+            <Container></Container>
           </Route>
           <Route path="/contact">
-            <Container>Contacts</Container>
+            <Container></Container>
           </Route>
           <Redirect from="/" to="/home" />
         </Switch>
