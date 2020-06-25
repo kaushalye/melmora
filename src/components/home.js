@@ -61,7 +61,7 @@ class Home extends Component {
         <Container className="tileContainer" >
 
           <Container className="tile draw-border"> 
-            <Container className="tileHeader">  <i class="fas fa-users"style= {{color: 'lightgreen'}} /> Members </Container>
+            <Container className="tileHeader">  <i class="fas fa-users" style= {{color: 'lightgreen'}} /> Members </Container>
             <Container className="tileBody">UMAAV also acts as the Victorian representative of the official University of Moratuwa Alumni in Sri Lanka. The membership base of <span className="highlightedText">UMAAV</span> consists of former students and staff of Faculty of Engineering, Faculty of Architecture, Faculty of IT and ITUM of University of Moratuwa. UMAAV obtained the registration as a non-profit organization with consumer Affairs Australia on March 2013. </Container>
           </Container>
           <Container className="tile draw-border"> 
