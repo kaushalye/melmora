@@ -19,7 +19,7 @@ class Contact extends Component {
             </Row>
             <Row> 
               <Col className='itemListNamePosition col-3'><i class="fas fa-phone"/>:</Col >
-              <Col className='itemListName'><a href="tel:+61-430-239-663 ">+61 430 239 663 </a></Col>
+              <Col className='itemListName'><a href="tel:+61-430-239-663 ">+61430239663 </a></Col>
             </Row>
             <Row> 
               <Col className='itemListNamePosition col-3'><i class="fab fa-yahoo"/>:</Col >

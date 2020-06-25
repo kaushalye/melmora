@@ -1,15 +1,6 @@
 import React, { Component } from 'react';
 import {Carousel, Container} from 'react-bootstrap';
 
-const stmnts = [
-  {i:'fas fa-link', color:'lightblue', title: 'Network', txt:'To build a professional network of past University of Moratuwa (Sri lanka) students, staff and employees and their families living in Victoria'},
-  {i:'fas fa-rocket', color:'red', title: 'Career', txt:'To support the members in identifying the opportunities to enhance their career paths, professional development and to become a productive member of the Australian society'},
-  {i:'fas fa-flag', color:'pink', title: 'Culure', txt:'To understand the vastly diverse Australian culture while embracing and appreciating their own Sri Lankan cultural heritage'},
-  {i:'fas fa-graduation-cap', color:'#973d3d', title: 'Students', txt:'To support the current students of the University of Moratuwa (Sri Lanka)'},
-  {i:'fas fa-users', color:'#9367d7', title: 'Families', txt:'To support Members’ families, especially the children, in providing guidance and mentoring to achieve their academic and future career goals'},
-  {i:'fas fa-handshake', color:'#30e981', title: 'Community', txt:'To participate and support local community activities as a not-for-profit organisation'}
-];
-
 class Home extends Component {
 
   constructor(props) {
@@ -67,18 +58,26 @@ class Home extends Component {
         </Carousel>
         }
         </Container>
-
         <Container className="tileContainer" >
-          {stmnts.map(stmnt => {
-            return (
-              <Container className="tile draw-border"> 
-                <Container className="tileHeader"><i className={stmnt.i} style= {{color: stmnt.color}}></i> {stmnt.title} </Container>
-            <Container className="tileBody"> {stmnt.txt}</Container>
-              </Container>
-            );
-          })
-          }
+
+          <Container className="tile draw-border"> 
+            <Container className="tileHeader">  <i class="fas fa-users"style= {{color: 'lightgreen'}} /> Members </Container>
+            <Container className="tileBody">UMAAV also acts as the Victorian representative of the official University of Moratuwa Alumni in Sri Lanka. The membership base of <span className="highlightedText">UMAAV</span> consists of former students and staff of Faculty of Engineering, Faculty of Architecture, Faculty of IT and ITUM of University of Moratuwa. UMAAV obtained the registration as a non-profit organization with consumer Affairs Australia on March 2013. </Container>
+          </Container>
+          <Container className="tile draw-border"> 
+            <Container className="tileHeader"> <i class="fas fa-history" style= {{color: 'red'}}/> History </Container>
+            <Container className="tileBody">
+            The University of Moratuwa Alumni Association in Victoria (UMAAV) was officially formed in March 2012. Prior to this, the organization functioned as an informal group called <span className="highlightedText">"MelMora"</span>.
+Melmora was established to promote the interests of the University of Moratuwa as a pre-eminent centre of education, while providing a common forum for academic, professional and social interaction among graduates, staff and others associated with the University of Moratuwa, Sri Lanka.
+            </Container>
+          </Container>
+          <Container className="tile draw-border"> 
+            <Container className="tileHeader">  <i class="fas fa-heartbeat" style= {{color: 'lightblue'}}/> Activities </Container>
+            <Container className="tileBody">Towards achieving its objectives, UMAAV conducts several programs and events every year. The UMAAV scholarship scheme is one of the primary activities of UMAAV where continuous financial assistance is provided for deserving students of University of Moratuwa.  The program started in 2011 with the funds raised from the UMAAV events such as Melmora - <span className="highlightedText">Dinner Dance</span> and Melmora - <span className="highlightedText">Summer Event</span>. </Container>
+          </Container>
         </Container>
+        
+
         <Container className="tileContainer" >
           <Container className="tileWide">
             <Container className="tileHeader"><i class="fas fa-calendar"></i>  Upcoming Events </Container>
