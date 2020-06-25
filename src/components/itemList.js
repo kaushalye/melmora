@@ -3,8 +3,6 @@ import { Container, Row, Col} from 'react-bootstrap';
 
 
 class ItemList extends Component {
-
-
   render() {
     return (
       <Container className="itemList">

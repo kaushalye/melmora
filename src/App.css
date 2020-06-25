@@ -93,7 +93,7 @@
 
 .card .card_title {
   text-align: center;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
   font-size: 20px;
   margin-top: -80px;
   height: 40px;
@@ -180,7 +180,7 @@ html, body {
   align-items: center;
   color: #E4E5E6;
   display: flex;
-  font-family: 'Impact', sans-serif;
+  /* font-family: 'Impact', sans-serif; */
   text-shadow: 2px 2px black;
 }
 .navbar.bg-dark {
@@ -227,7 +227,7 @@ html, body {
 
 .tileBody {
   padding: 25px 15px;
-  min-height: 200px;
+  min-height: 100px;
 }
 
 .tileContainer{
@@ -285,4 +285,10 @@ html, body {
 
 .fas{
   color: var(--icon-color);
+}
+.fab {
+  color: var(--icon-color);
+}
+.contactList{
+  text-align: left;
 }

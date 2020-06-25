@@ -11,7 +11,7 @@ const coms = [
     Secretary : Desmond Fernando
     Assistant Secretary : Pradeep Mahawatta
     Treasurer : Lokubanda Dassanayake
-    Assistant Treasurer : Dr. Chanaka Rupasinghe
+    Assistant Treasurer: Dr. Chanaka Rupasinghe
     Public Officer : Ajith Liyanage
     Editor: Dr. Malinda Kapuruge
     Committee Member: Indrajeewa Piyasena

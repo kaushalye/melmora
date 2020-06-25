@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import {Tabs, Image, Container} from 'react-bootstrap';
 
-
+const faqs = [
+  {
+    q: '',
+    a: ''
+  },
+];
 class Schol extends Component {
-
 
   render() { 
     const text = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna et pharetra pharetra massa massa ultricies mi quis. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Sit amet massa vitae tortor condimentum lacinia quis vel. Morbi enim nunc faucibus a. Tristique nulla aliquet enim tortor. Amet consectetur adipiscing elit ut aliquam purus sit amet luctus. Purus in mollis nunc sed id semper risus in. In nibh mauris cursus mattis molestie a iaculis at. Neque vitae tempus quam pellentesque nec nam. Leo duis ut diam quam nulla. Nunc faucibus a pellentesque sit amet. Convallis a cras semper auctor neque vitae tempus quam. Facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Condimentum id venenatis a condimentum vitae sapien. Ullamcorper a lacus vestibulum sed arcu non. Egestas pretium aenean pharetra magna ac placerat vestibulum lectus mauris.

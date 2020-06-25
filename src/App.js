@@ -4,6 +4,7 @@ import Home from './components/home'
 import Gallery from './components/gallery'
 import Schol from './components/schol'
 import About from './components/about'
+import Contact from './components/contact'
 import SubHeader from './components/subheader'
 import {
   BrowserRouter as Router,
@@ -72,7 +73,7 @@ class App extends Component {
             </Route>
             <Route path="/contact">
               <SubHeader subtitle='Contact'/>
-              <Container></Container>
+              <Contact/>
             </Route>
             <Redirect from="/" to="/home" />
           </Switch>
