@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { Container, Nav, Navbar, Image} from 'react-bootstrap';
 import Home from './components/home'
-import News from './components/news'
+import Gallery from './components/gallery'
 import Schol from './components/schol'
 import SubHeader from './components/subheader'
 import {
@@ -27,7 +27,7 @@ class App extends Component {
           <Navbar.Brand href="/home">
             
             <span className="title" >
-              <Image
+              <Image className="logo" 
                 alt=""
                 src="/logo192.png"
                 width="40"
@@ -46,7 +46,7 @@ class App extends Component {
               <Nav.Link href="/about">About</Nav.Link>
               <Nav.Link href="/contact">Contact</Nav.Link>
               <Nav.Link href="https://www.facebook.com/groups/melmora" target="_blank">
-                <Image           
+                <Image          
                   width="25" height="25"
                   src="/images/fb.png"/>
               </Nav.Link>
@@ -59,7 +59,7 @@ class App extends Component {
             </Route>
             <Route path="/gallery">
               <SubHeader subtitle='Gallery'/>
-              <News/>
+              <Gallery/>
             </Route>
             <Route path="/schol">
               <SubHeader subtitle='Scholarship'/>

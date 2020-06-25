@@ -1,3 +1,7 @@
+:root {
+  --main-bg-color: #333;
+}
+
 .App {
   text-align: center;
 }
@@ -27,18 +31,32 @@
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.imageTile {
+  width: 200px;
+  height: 200px;
+  border-radius: 4px;
+  transition: 0.4s; 
+}
+.imageTile .imageTile-image {
+  width: inherit;
+  height: inherit;
+  border-radius: 4px;
+}
+.imageTile .imageTile-image img{
+  width: inherit;
+  height: inherit;
+  border-radius: 4px;
+  object-fit: cover;
+}
+.imageTile:hover {
+  transform: scale(1.1, 1.1);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25);
 }
 
-
-
+.imageTile-text:hover {
+  transition: 0.4s; 
+  transform: translateY(-100px);
+}
 
 /*carsd*/
 .cards-list {
@@ -54,7 +72,7 @@
   width: 300px;
   height: 300px;
   border-radius: 40px;
-  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  /* box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22); */
   cursor: pointer;
   transition: 0.4s;
 }
@@ -74,13 +92,11 @@
 
 .card .card_title {
   text-align: center;
-  text-shadow: 2px 2px black;
-  border-radius: 0px 0px 40px 40px;
   font-family: sans-serif;
-  font-weight: bold;
   font-size: 20px;
   margin-top: -80px;
   height: 40px;
+  background: rgba(0,0,0,0.5);
 }
 
 .card:hover {
@@ -136,9 +152,12 @@ html, body {
   height: 100% !important;
   padding: 0px !important;
   width: 100%;
-  background: #333;
+  background: var(--main-bg-color);
   /* background: linear-gradient(to bottom, black,black, rgb(2, 2, 80)); */
   color: white;
+
+  /* background-image: url('/images/sq.png');
+  background-repeat: no-repeat; */
 }
 .footer {
   text-align: center;
@@ -164,12 +183,12 @@ html, body {
   text-shadow: 2px 2px black;
 }
 .navbar.bg-dark {
-  background-color: #333!important;
+  background-color:  var(--main-bg-color)!important;
   background-image: url('/images/header.png');
-  background-size: 300px;
+  background-size: 200px;
   background-repeat: no-repeat;
   background-origin: content-box, padding-box;
-
+  background-position: 35px 0px;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
   border-width: 0;
 }
@@ -183,23 +202,29 @@ html, body {
   font-size: large;
 }
 .tile {
-  max-width: 340px;
-
-}
-.tileWide {
+  max-width: 343px;
+  background-color:  inherit;
   color: rgb(177, 172, 145);
   text-align: center;
   margin: 10px;
   padding: 10px;
-  background-color: #333;; 
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.8);
 }
-.tileHeader{
+.tileWide {
+  background-color:  inherit;
+  color: rgb(177, 172, 145);
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.tileHeader {
   color: white;
   font-size: large;
 }
 
-.tileBody{
+.tileBody {
   padding: 25px 15px;
   min-height: 200px;
 }
@@ -211,11 +236,21 @@ html, body {
   flex-wrap: wrap;
 }
 .subHeader {
+  color: white;
   float: right;
   text-align: center;
-  padding:  5px;
+  padding:  2px;
   margin-right: 10px;
   min-width: 100px;
-  background-color: #333;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  background-color:  var(--main-bg-color);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+.logo{
+  margin: -3px -5px;
+}
+
+.galleryModal{
+  width: 90%;
 }

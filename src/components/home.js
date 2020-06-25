@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Carousel, Container, Image, Col, Card} from 'react-bootstrap';
+import ImageTile from './imageTile';
 
 class Home extends Component {
 
@@ -55,27 +56,33 @@ class Home extends Component {
             })
           }
           
-        </Carousel>}
+        </Carousel>
+        }
         </Container>
 
         <Container className="tileContainer" >
-          <Container className="tile tileWide draw-border"> 
+          <Container className="tile draw-border"> 
             <Container className="tileHeader"><i className="fas fa-bullseye "  style= {{color: '#dd9a9a'}}></i> Vision </Container>
             <Container className="tileBody"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </Container>
           </Container>
-          <Container className="tile tileWide draw-border"> 
+          <Container className="tile draw-border"> 
                <Container className="tileHeader"><i class="fas fa-tasks" style= {{color: 'orange'}}></i>  Mission </Container>
               <Container className="tileBody"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </Container>
           </Container>
-          <Container className="tile tileWide draw-border"> 
+          <Container className="tile draw-border"> 
               <Container className="tileHeader"><i class="fas fa-leaf" style= {{color: '#50eb38'}}></i>  Values </Container>
               <Container className="tileBody"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </Container>
           </Container>
         </Container>
         <Container className="tileContainer" >
-          <Container className="tileWide draw-border">
-            <Container className="tileHeader"> Upcoming Events </Container>
-            <Container className="tileBody"></Container>
+          <Container className="tileWide">
+            <Container className="tileHeader"><i class="fas fa-calendar" style= {{color: '#a0ead9'}}></i>  Upcoming Events </Container>
+            <Container className="tileBody">
+              {/* <ImageTile imageUrl='/news/1.jpg' title='Dinner Dance - 2021'/>
+              <ImageTile imageUrl='/news/2.jpg' title='Blood Donation - 2020'/>
+
+              <ImageTile imageUrl='/news/3.jpg' title='Blood Donation - 2020'/> */}
+            </Container>
           </Container>
         </Container>
       </Container>
