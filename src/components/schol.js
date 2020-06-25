@@ -14,15 +14,15 @@ class Schol extends Component {
       <Container className="nopadding">
       <Container className="tileContainer" >
           <Container className="tile draw-border"> 
-            <Container className="tileHeader"> <i class="fas fa-paper-plane" style= {{color: 'orange'}}/> Apply </Container>
+            <Container className="tileHeader"> <i class="fas fa-paper-plane"/> Apply </Container>
             <Container className="tileBody"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </Container>
           </Container>
           <Container className="tile draw-border"> 
-            <Container className="tileHeader">  <i class="fas fa-forward" style= {{color: 'orange'}}/> Extend </Container>
+            <Container className="tileHeader">  <i class="fas fa-forward" /> Extend </Container>
             <Container className="tileBody"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </Container>
           </Container>
           <Container className="tile draw-border"> 
-            <Container className="tileHeader">  <i class="fas fa-heart" style= {{color: 'orange'}}/> Become a donor </Container>
+            <Container className="tileHeader">  <i class="fas fa-heart"/> Become a donor </Container>
             <Container className="tileBody"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </Container>
           </Container>
         </Container>

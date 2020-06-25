@@ -56,13 +56,14 @@ class Gallery extends Component {
              <p>{album}</p>
            </Container>
 
-           <Modal className='galleryModal' show={this.state.showModal} onHide={this.hideAlbum} animation={false}>
+           <Modal size="xl" show={this.state.showModal} onHide={this.hideAlbum} animation={false}>
             <Modal.Header closeButton>
             </Modal.Header>
             <Modal.Body>
              <ImageGallery 
              thumbnailPosition ='top'
               useBrowserFullscreen ={true}
+              lazyLoad={true}
               items={this.state.curImages.map(img =>  {
               return {
                 original: img,

@@ -3,6 +3,7 @@ import { Container, Nav, Navbar, Image} from 'react-bootstrap';
 import Home from './components/home'
 import Gallery from './components/gallery'
 import Schol from './components/schol'
+import About from './components/about'
 import SubHeader from './components/subheader'
 import {
   BrowserRouter as Router,
@@ -67,7 +68,7 @@ class App extends Component {
             </Route>
             <Route path="/about">
               <SubHeader subtitle='About'/>
-              <Container></Container>
+              <About/>
             </Route>
             <Route path="/contact">
               <SubHeader subtitle='Contact'/>

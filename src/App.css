@@ -1,5 +1,6 @@
 :root {
   --main-bg-color: #333;
+  --icon-color: orange;
 }
 
 .App {
@@ -250,7 +251,38 @@ html, body {
 .logo{
   margin: -3px -5px;
 }
+.highlightedText{
+  color: white;
+}
 
-.galleryModal{
-  width: 90%;
+.itemList {
+  max-width: 433px;
+  background-color:  inherit;
+  padding: 15px 0px 0px 0px;
+  margin: 0px;
+}
+.itemListContainer{
+  font-size: x-small;
+  padding: 10px 0px;
+}
+.itemListHeader {
+  color:var(--icon-color);
+  font-size: large;
+  padding-bottom: 5px;
+  margin: 0px;
+}
+.itemListNamePosition{
+  color: white;
+  text-align: right;
+  padding: 0px;
+  margin: 0px;
+}
+.itemListName{
+  text-align: left;
+  padding: 0px 0px 0px 5px;
+  margin: 0px;
+}
+
+.fas{
+  color: var(--icon-color);
 }
