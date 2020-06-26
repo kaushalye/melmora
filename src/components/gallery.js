@@ -3,7 +3,9 @@ import {Image, Container, Modal, Button, Carousel} from 'react-bootstrap';
 import ImageGallery from 'react-image-gallery';
 import galleryConfig from '../config/gallery.json'
 
-const galleryRoot =  '/images/gallery';
+console.log('REACT_APP_BASE_URL');
+console.log(process.env.REACT_APP_BASE_URL);
+const galleryRoot =  `${process.env.REACT_APP_BASE_URL}/images/gallery`; //'/images/gallery';
 class Gallery extends Component {
   
   constructor(props) {

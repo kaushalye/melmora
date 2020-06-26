@@ -12,8 +12,7 @@ class Home extends Component {
   }
 
   async loadImages() {
-    
-    this.setState({images: ["1", "2", "3"]});
+    this.setState({images: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]});
   }
 
   componentDidMount() {
@@ -59,17 +58,16 @@ class Home extends Component {
         }
         </Container>
         <Container className="tileContainer" >
-
           <Container className="tile draw-border"> 
-            <Container className="tileHeader">  <i class="fas fa-users" style= {{color: 'lightgreen'}} /> Members </Container>
-            <Container className="tileBody">UMAAV also acts as the Victorian representative of the official University of Moratuwa Alumni in Sri Lanka. The membership base of <span className="highlightedText">UMAAV</span> consists of former students and staff of Faculty of Engineering, Faculty of Architecture, Faculty of IT and ITUM of University of Moratuwa. UMAAV obtained the registration as a non-profit organization with consumer Affairs Australia on March 2013. </Container>
-          </Container>
-          <Container className="tile draw-border"> 
-            <Container className="tileHeader"> <i class="fas fa-history" style= {{color: 'red'}}/> History </Container>
+            <Container className="tileHeader"> <i class="fas fa-history" style= {{color: 'lightgreen'}}/> History </Container>
             <Container className="tileBody">
             The University of Moratuwa Alumni Association in Victoria (UMAAV) was officially formed in March 2012. Prior to this, the organization functioned as an informal group called <span className="highlightedText">"MelMora"</span>.
 Melmora was established to promote the interests of the University of Moratuwa as a pre-eminent centre of education, while providing a common forum for academic, professional and social interaction among graduates, staff and others associated with the University of Moratuwa, Sri Lanka.
             </Container>
+          </Container>
+          <Container className="tile draw-border"> 
+            <Container className="tileHeader">  <i class="fas fa-users" style= {{color: 'red'}} /> Members </Container>
+            <Container className="tileBody">UMAAV acts as the Victorian representative of the official University of Moratuwa Alumni in Sri Lanka. The membership base of <span className="highlightedText">UMAAV</span> consists of former students and staff of Faculty of Engineering, Faculty of Architecture, Faculty of IT and ITUM of University of Moratuwa. UMAAV obtained the registration as a non-profit organization with consumer Affairs Australia on March 2013. </Container>
           </Container>
           <Container className="tile draw-border"> 
             <Container className="tileHeader">  <i class="fas fa-heartbeat" style= {{color: 'lightblue'}}/> Activities </Container>
@@ -77,10 +75,21 @@ Melmora was established to promote the interests of the University of Moratuwa a
           </Container>
         </Container>
         
-
         <Container className="tileContainer" >
           <Container className="tileWide">
             <Container className="tileHeader"><i class="fas fa-calendar"></i>  Upcoming Events </Container>
+            <Container className="tileBody">
+              {/* <ImageTile imageUrl='/news/1.jpg' title='Dinner Dance - 2021'/>
+              <ImageTile imageUrl='/news/2.jpg' title='Blood Donation - 2020'/>
+
+              <ImageTile imageUrl='/news/3.jpg' title='Blood Donation - 2020'/> */}
+            </Container>
+          </Container>
+        </Container>
+
+        <Container className="tileContainer" >
+          <Container className="tileWide">
+            <Container className="tileHeader"><i class="fas fa-calendar-check"></i>  Past Events </Container>
             <Container className="tileBody">
               {/* <ImageTile imageUrl='/news/1.jpg' title='Dinner Dance - 2021'/>
               <ImageTile imageUrl='/news/2.jpg' title='Blood Donation - 2020'/>
