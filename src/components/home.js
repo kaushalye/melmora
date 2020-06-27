@@ -87,23 +87,10 @@ class Home extends Component {
           </Container>
         </Container>
         
-        <Container className="tileContainer" >
-          <Container className="tileWide">
-            <Container className="tileHeader"><i class="fas fa-calendar"></i>  Upcoming Events </Container>
-            <Container className="tileBody">
-               <EventItems images={this.state.upcomingNews}></EventItems>
-            </Container>
-          </Container>
-        </Container>
+        <EventItems title='Upcoming events' images={this.state.upcomingNews}></EventItems>
 
-        <Container className="tileContainer" >
-          <Container className="tileWide">
-            <Container className="tileHeader"><i class="fas fa-calendar-check"></i>  Past Events </Container>
-            <Container className="tileBody">
-            <EventItems images={this.state.pastNews}></EventItems>
-            </Container>
-          </Container>
-        </Container>
+        <EventItems title='Past events' images={this.state.pastNews}></EventItems>
+
       </Container>
 
     );
