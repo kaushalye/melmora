@@ -46,16 +46,15 @@ class Gallery extends Component {
   render() {
     
     return (
-      <Container className="nopadding cards-list">
+      <Container className="tileContainer">
       {albums.map(item => {
         const imageUrl = `${galleryRoot}/${item.name}/1.jpg`; // Show only the first image. Make sure that's a good one
-        const album = item.name.replace('_', ' ');
-       return (
-         <Container className="card 1" >
-           <Container className="card_image"> <Image src={imageUrl} name={item.name} onClick={this.showAlbum} style={{"pointer-events": "all"}}/> </Container>
-           <Container className="card_title title-white" >
-             <p>{album}</p>
-           </Container>
+        const album = item.name.replace(/_/g, ' ');
+        return (
+         <Container className="eventImageContainer" >
+
+           <Image className="eventImage draw-border" src={imageUrl} name={item.name} onClick={this.showAlbum} style={{"pointer-events": "all"}}/> 
+           <Container className="albumTitle" >{album} </Container>
 
            <Modal size="xl" show={this.state.showModal} onHide={this.hideAlbum} animation={false}>
             <Modal.Header closeButton>
@@ -75,7 +74,7 @@ class Gallery extends Component {
 
             </Modal.Body>
 
-          </Modal>
+          </Modal> 
          </Container>
        );
      })}
