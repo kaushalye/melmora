@@ -18,11 +18,11 @@ class Schol extends Component {
           <Container className="tile draw-border"> 
             <Container className="tileHeader"> <i class="fas fa-paper-plane" style= {{color: 'lightgreen'}} /> Apply </Container>
             <Container className="tileBody"> We encourage students undergoing financial hardships due to their social and family
-circumstances to apply for the UMAAV scholarship via the application below. All students entering or currently enrolled in an undergraduate degree course in the University of Moratuwa are eligible to apply. </Container>
+circumstances to apply for the UMAAV scholarship via the application below. All students entering or currently enrolled in an undergraduate degree course in the University of Moratuwa are eligible to apply.<br/>[Applications are now closed for 2020] </Container>
           </Container>
           <Container className="tile draw-border"> 
             <Container className="tileHeader">  <i class="fas fa-forward" style= {{color: 'orange'}} /> Extend </Container>
-            <Container className="tileBody"> If you are an existing scholarship recipient, you need to extend your scholarship by filling the application below. The scholarship committee will review your current circumstances before granting the extension. </Container>
+            <Container className="tileBody"> If you are an existing scholarship recipient, you need to extend your scholarship by filling the application below. The scholarship committee will review your current circumstances before granting the extension. <br/>[Applications are now closed for 2020]  </Container>
           </Container>
           <Container className="tile draw-border"> 
             <Container className="tileHeader">  <i class="fas fa-heart" style= {{color: 'red'}} /> Become a donor </Container>
