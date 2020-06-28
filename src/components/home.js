@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {Carousel, Container} from 'react-bootstrap';
 import EventItems from './eventItems';
-import news from '../config/news.json';
 
 const newsRoot =  `${process.env.REACT_APP_BASE_URL}/images/news`; 
 class Home extends Component {
@@ -22,21 +21,29 @@ class Home extends Component {
    *            / past
    * @param {} dir 
    */
-  loadImages(dir) {
+  loadImages(dir, newsConfig) {
     const images = [];
     let i;
-    console.log(dir+ '->'+news[dir]);
-    for (i = news[dir]; i >= 1; i--) {
+    console.log(dir+ '->'+newsConfig[dir]);
+    for (i = newsConfig[dir]; i >= 1; i--) {
       images.push(`${newsRoot}/${dir}/${i}.jpg`);
     }
 
     return images;
   }
 
-  componentDidMount() {
-    const upcomingNews = this.loadImages('upcoming');
-    const pastNews = this.loadImages('past');
+  async loadConfig() {
+    const res = await fetch("/config/news.json");
+    const newsConfig = await res.json();
+
+    const upcomingNews = this.loadImages('upcoming', newsConfig);
+    const pastNews = this.loadImages('past', newsConfig);
+
     this.setState({upcomingNews, pastNews});
+  }
+  
+  componentDidMount() {
+    this.loadConfig();
   }
 
   render() {
@@ -46,7 +53,7 @@ class Home extends Component {
       <Container className="nopadding">
         <Container className="nopadding">
         {images.length > 0 && 
-          <Carousel  className="newsslide" interval='4000'>
+          <Carousel  className="newsslide" indicators={true} fade={true} interval='4000'>
           {
             images.map((item, i) => {
               const image = `/banner/${item}.jpg`;

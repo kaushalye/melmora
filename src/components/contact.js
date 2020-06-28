@@ -8,7 +8,7 @@ class Contact extends Component {
       <Container className="nopadding">
         <Container className="tileContainer" >
           <Container className="tileWide">
-            <p>Please get in touch with the Alumni team if you have any questions or feedback, we'd love to hear from you.</p>
+            <p>Please get in touch with the Alumni team if you have any questions or feedback. We'd love to hear from you.</p>
             <Row> 
               <Col className='itemListNamePosition col-3'><i class="fas fa-envelope"/>:</Col >
               <Col className='itemListName'><a href="mailto:info@umaav.org.au">info@umaav.org.au</a></Col>
