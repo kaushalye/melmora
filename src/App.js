@@ -48,9 +48,7 @@ class App extends Component {
               <Nav.Link href="/about">About</Nav.Link>
               <Nav.Link href="/contact">Contact</Nav.Link>
               <Nav.Link href="https://www.facebook.com/groups/melmora" target="_blank">
-                <Image          
-                  width="25" height="25"
-                  src="/images/fb.png"/>
+                <i class="fab fa-facebook-square"/>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

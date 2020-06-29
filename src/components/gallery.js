@@ -5,7 +5,7 @@ import ImageGallery from 'react-image-gallery';
 
 console.log('REACT_APP_BASE_URL');
 console.log(process.env.REACT_APP_BASE_URL);
-const galleryRoot =  `${process.env.REACT_APP_BASE_URL}/images/gallery`; 
+const galleryRoot =  `${process.env.REACT_APP_BASE_URL}/images/albums`; 
 class Gallery extends Component {
   
   constructor(props) {
@@ -21,14 +21,12 @@ class Gallery extends Component {
   }
 
   hideAlbum() {
-    console.log('hideAlbum');
     this.setState({
       showModal: false,
     })
   }
   
   showAlbum(e) {
-    console.log('showAlbum');
     console.log(e.target.name);
     const name = e.target.name;
     const images = [];
@@ -45,7 +43,7 @@ class Gallery extends Component {
   }  
 
   async loadConfig() {
-    const res = await fetch("/config/gallery.json");
+    const res = await fetch("/config/albums.json");
     const albums = await res.json();
 
     this.setState({albums});

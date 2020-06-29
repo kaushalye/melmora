@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Carousel, Container} from 'react-bootstrap';
 import EventItems from './eventItems';
 
-const newsRoot =  `${process.env.REACT_APP_BASE_URL}/images/news`; 
+const newsRoot =  `${process.env.REACT_APP_BASE_URL}/news`; 
 class Home extends Component {
 
   constructor(props) {
@@ -24,7 +24,6 @@ class Home extends Component {
   loadImages(dir, newsConfig) {
     const images = [];
     let i;
-    console.log(dir+ '->'+newsConfig[dir]);
     for (i = newsConfig[dir]; i >= 1; i--) {
       images.push(`${newsRoot}/${dir}/${i}.jpg`);
     }
@@ -41,14 +40,13 @@ class Home extends Component {
 
     this.setState({upcomingNews, pastNews});
   }
-  
+
   componentDidMount() {
     this.loadConfig();
   }
 
   render() {
-    const images = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
-    console.log(this.state.upcomingNews);
+    const images = ["1", "2", "3", "4", "5", "6", "7", "8", "9"];
     return (
       <Container className="nopadding">
         <Container className="nopadding">
@@ -56,7 +54,7 @@ class Home extends Component {
           <Carousel  className="newsslide" indicators={true} fade={true} interval='4000'>
           {
             images.map((item, i) => {
-              const image = `/banner/${item}.jpg`;
+              const image = `/images/banner/${item}.jpg`;
 
               return (
                 <Carousel.Item className="newsslideItem" >
@@ -77,7 +75,7 @@ class Home extends Component {
           <Container className="tile draw-border"> 
             <Container className="tileHeader"> <i class="fas fa-history" style= {{color: 'lightgreen'}}/> History </Container>
             <Container className="tileBody">
-            Officially formed in March 2012,  the  <span className="highlightedText">University of Moratuwa Alumni Association in Victoria (UMAAV)</span>, promote the interests of the University of Moratuwa as a pre-eminent centre of education, while providing a common forum for academic, professional and social interaction among graduates, staff and others associated with the University of Moratuwa, Sri Lanka. Prior to this, the organization functioned as an informal group called <span className="highlightedText">"MelMora"</span>.
+            Officially formed in March 2012, the University of Moratuwa Alumni Association in Victoria <span className="highlightedText">(UMAAV)</span>, promote the interests of the University of Moratuwa as a pre-eminent centre of education, while providing a common forum for academic, professional and social interaction among graduates, staff and others associated with the University of Moratuwa, Sri Lanka. Prior to this, the organization functioned as an informal group called <span className="highlightedText">"MelMora"</span>.
             </Container>
           </Container>
           <Container className="tile draw-border"> 
