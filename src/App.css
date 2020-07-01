@@ -34,6 +34,29 @@
 .App-link {
   color: #61dafb;
 }
+
+a {
+  color: white;
+}
+a:hover {
+  color: var(--icon-color);
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
 .imageTile {
   width: 200px;
   height: 200px;

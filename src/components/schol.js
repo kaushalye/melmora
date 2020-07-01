@@ -39,30 +39,22 @@ UMAAV scholarship program is still in its infancy but is steadily growing thanks
             </Container>
             <ItemList name='' items={scholUpdate}/>
           </Container>
-      </Container>
-      <Container className="tileContainer" >
-          <Container className="tileWide">
-            <Container className="tileHeader"> How are the scholarship recipients selected? </Container>
-            <Container className="tileBody">
-            The scholarship committee has framed a set of criteria to identify the most deserving cases among all the applications received. The criteria include not only the parameters to measure the financial difficulties faced by the applicant, but also his/her academic performance and engagement in extra-curricular activities. In addition, each applicant needs to be recommended by an academic staff member of UoM. The scholarship committee also cross-check the validity of information provided, through various reliable sources in Sri Lanka.Based on the outcome of the above process, well-deserved applicants are short listed. Finally the scholarship committee gather, discuss and select the most deserving cases from the aforementioned list and allocate scholarships. </Container>
-          </Container>
-      </Container>
-      <Container className="tileContainer" >
-          <Container className="tileWide">
-            <Container className="tileHeader"> How is the scholarship program funded? </Container>
-            <Container className="tileBody">
-            There are a number of annual activities conducted by UMAAV to raise funds, including the most popular Dinner Dance (winter event) and the Cricket Carnival (summer event). The profit earned from these events is debited to the scholarship fund. Apart from the scholarship fund, a number of individual sponsorships provided by the UMAAV members are also used to provide the scholarships.
+        </Container>
+        <Container className="tileContainer" >
+            <Container className="tileWide">
+              <Container className="tileHeader"> How are the scholarship recipients selected? </Container>
+              <Container className="tileBody">
+              The scholarship committee has framed a set of criteria to identify the most deserving cases among all the applications received. The criteria include not only the parameters to measure the financial difficulties faced by the applicant, but also his/her academic performance and engagement in extra-curricular activities. In addition, each applicant needs to be recommended by an academic staff member of UoM. The scholarship committee also cross-check the validity of information provided, through various reliable sources in Sri Lanka.Based on the outcome of the above process, well-deserved applicants are short listed. Finally the scholarship committee gather, discuss and select the most deserving cases from the aforementioned list and allocate scholarships. </Container>
             </Container>
-          </Container>
-      </Container>
-      <Container className="tileContainer" >
-          <Container className="tileWide">
-            <Container className="tileHeader"> How you can help us? </Container>
-            <Container className="tileBody">
-            Due to financial restrictions we cannot provide scholarships for all the deserving applicants. Fortunately, a number of generous UMAAV members have come forward to individually sponsor the deserving applicants. Under the same scheme, we welcome your individual sponsorships ($20 per month / $240 per year). You are given the opportunity to select any of the short listed deserving applicants, while all the administrative tasks are taken care of by the UMAAV scholarship committee. The application form for individual sponsorships can be found here. And of course you can also contribute by participating in UMAAV fund raising events.
+        </Container>
+        <Container className="tileContainer" >
+            <Container className="tileWide">
+              <Container className="tileHeader"> How is the scholarship program funded? </Container>
+              <Container className="tileBody">
+              There are a number of annual activities conducted by UMAAV to raise funds, including the most popular Dinner Dance (winter event) and the Cricket Carnival (summer event). The profit earned from these events is debited to the scholarship fund. Apart from the scholarship fund, a number of individual sponsorships provided by the UMAAV members are also used to provide the scholarships.
+              </Container>
             </Container>
-          </Container>
-      </Container>
+        </Container>
       </Container>
     );
   }
