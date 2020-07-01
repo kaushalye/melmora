@@ -10,24 +10,16 @@ class Contact extends Component {
           <Container className="tileWide">
             <p>Please get in touch with the Alumni team if you have any questions or feedback. We'd love to hear from you.</p>
             <Row> 
-              <Col className='itemListNamePosition col-3'><i class="fas fa-envelope"/>:</Col >
+              <Col className='itemListNamePosition col-3'><i className="fas fa-envelope"/>:</Col >
               <Col className='itemListName'><a href="mailto:info@umaav.org.au">info@umaav.org.au</a></Col>
             </Row>
             <Row> 
-              <Col className='itemListNamePosition col-3'><i class="fab fa-facebook-square"/>:</Col >
-              <Col className='itemListName'><a href="https://www.facebook.com/groups/melmora" target="self">melmora</a></Col>
+              <Col className='itemListNamePosition col-3'><i className="fab fa-facebook-square"/>:</Col >
+              <Col className='itemListName'><a href="https://www.facebook.com/groups/melmora" target="self">melmora facebook page</a></Col>
             </Row>
             <Row> 
-              <Col className='itemListNamePosition col-3'><i class="fas fa-phone"/>:</Col >
-              <Col className='itemListName'><a href="tel:+61-430-239-663 ">+61430239663 </a></Col>
-            </Row>
-            <Row> 
-              <Col className='itemListNamePosition col-3'><i class="fab fa-yahoo"/>:</Col >
-              <Col className='itemListName'><a href="http://groups.yahoo.com/neo/groups/melmora/info" target="self">melmora</a></Col>
-            </Row>
-            <Row> 
-              <Col className='itemListNamePosition col-3'><i class="fas fa-map-marker"/>:</Col >
-              <Col className='itemListName'><a href="https://goo.gl/maps/paBEoT9u57chr99B6" target="self">40 Browns Road, Noble Park North, VIC 3174</a></Col>
+              <Col className='itemListNamePosition col-3'><i className="fab fa-yahoo"/>:</Col >
+              <Col className='itemListName'><a href="http://groups.yahoo.com/neo/groups/melmora/info" target="self">melmora yahoo group</a></Col>
             </Row>
           </Container>
         </Container>     

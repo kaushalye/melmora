@@ -122,6 +122,7 @@ const coms = [
     Asst. Treasurer : Chanaka Rupasinghe
     Public Officer : Anuja Manchanayake
     Editor: Dr. K.S.Vijayalayan
+    Committee Member: Dr. Malinda Kapuruge
     Committee Member: Pradeep Mahawatta
     Committee Member: Rasika Weerasinghe
     Committee Member: Desmond Fernando
@@ -187,7 +188,7 @@ class About extends Component {
 
         <Container className="tileContainer" >
           <Container className="tileWide">
-            <Container className="tileHeader"> <i class="fas fa-sitemap"/> Office Bearers </Container>
+            <Container className="tileHeader"> <i className="fas fa-sitemap"/> Office Bearers </Container>
             <Container className="tileContainer itemListContainer" >
               {coms.map(com => {
                 return (<ItemList name={com.name} items={com.bearers}/>);

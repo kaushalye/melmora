@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import {Image, Container, Modal} from 'react-bootstrap';
 import ImageGallery from 'react-image-gallery';
-// import albums from '../config/gallery.json'
 
 console.log('REACT_APP_BASE_URL');
 console.log(process.env.REACT_APP_BASE_URL);
-const galleryRoot =  `${process.env.REACT_APP_BASE_URL}/images/albums`; 
+const galleryRoot =  `${process.env.REACT_APP_BASE_URL}/albums`; 
 class Gallery extends Component {
   
   constructor(props) {
@@ -57,11 +56,11 @@ class Gallery extends Component {
     
     return (
       <Container className="tileContainer">
-      {this.state.albums.map(item => {
+      {this.state.albums.map((item, i) => {
         const imageUrl = `${galleryRoot}/${item.name}/1.jpg`; // Show only the first image. Make sure that's a good one
         const album = item.name.replace(/_/g, ' ');
         return (
-         <Container className="eventImageContainer" >
+         <Container key={i} className="eventImageContainer" >
 
            <Image className="eventImage draw-border" src={imageUrl} name={item.name} onClick={this.showAlbum} style={{"pointer-events": "all"}}/> 
            <Container className="albumTitle" >{album} </Container>

@@ -32,7 +32,7 @@ class EventItems extends Component {
     return (
       <Container className="tileContainer" >
         <Container className="tileWide">
-          <Container className="tileHeader"><i class="fas fa-calendar"></i>  {this.props.title} </Container>
+          <Container className="tileHeader"><i className="fas fa-calendar"></i>  {this.props.title} </Container>
           <Container className="horzontallyScrollableContainer">
             {
               this.props.images.map(imgSrc => {
@@ -45,7 +45,7 @@ class EventItems extends Component {
             }
           </Container>
         </Container>
-        <Modal size="xl" show={this.state.showModal} onHide={this.hideFullScreen} animation={false}>
+        <Modal size="xl" show={this.state.showModal} onHide={this.hideFullScreen}>
             <Modal.Header closeButton>
             </Modal.Header>
             <Modal.Body >
