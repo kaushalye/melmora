@@ -32,14 +32,16 @@ circumstances to apply for the UMAAV scholarship via the application below. All 
         <Container className="tileContainer" >
           <Container className="tileWide">
             <Container className="tileHeader"> A Scholarship - More than a mere financial assistance </Container>
+            
             <Container className="tileBody">
             "I promise I will work hard to prove myself worthy of this opportunity you have given me. I am looking forward to the day I will be able to help other students as you have supported me.“ <br/> Given above is a snippet of one of the responses we received from a scholarship recipient this year. While there are many heart-warming responses, the above response suggests that along with much needed financial assistance, the practice of giving/dana has also been passed to the next generation of University of Moratuwa (UoM) graduates. How fitting with the UMAAV objectives, we think.
 UMAAV scholarship program is still in its infancy but is steadily growing thanks to your generosity. We have just completed our very first round of scholarships and just announced the call for applications for the next round. Therefore this is an excellent time to share the highlights of the scholarship program.
-           
+
             </Container>
-            <ItemList name='' items={scholUpdate}/>
+            <ItemList name='' items={scholUpdate}/> 
           </Container>
         </Container>
+        
         <Container className="tileContainer" >
             <Container className="tileWide">
               <Container className="tileHeader"> How are the scholarship recipients selected? </Container>

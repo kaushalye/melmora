@@ -30,7 +30,8 @@ const coms = [
     Committee Member: Loku Dasanayake
     Committee Member: Saman Marasinghe
     Committee Member: Pradeep Mahawaththa
-    Committee Member: Rasika Amarasiri`,
+    Committee Member: Rasika Amarasiri
+    Senior Advisor: Dr. Don Rodrigo`,
   },
   {
     name: "2018-2019",
@@ -50,7 +51,8 @@ const coms = [
     Committee Member:	Loku Dassanayake
     Committee Member:	Amila Gunathilaka
     Committee Member:	Anuja Manchanayaka
-    Committee Member:	Pradeep Mahawatta`,
+    Committee Member:	Pradeep Mahawatta
+    Senior Advisor: Dr. Don Rodrigo`,
   },
   {
   name: "2017-2018",

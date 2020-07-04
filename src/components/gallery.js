@@ -70,6 +70,7 @@ class Gallery extends Component {
             </Modal.Header>
             <Modal.Body>
              <ImageGallery 
+             showThumbnails={true}
              thumbnailPosition ='top'
               useBrowserFullscreen ={true}
               lazyLoad={true}
