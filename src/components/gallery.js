@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Image, Container, Modal} from 'react-bootstrap';
-import ImageGallery from 'react-image-gallery';
+import GridGallery from 'react-grid-gallery';
 
 console.log('REACT_APP_BASE_URL');
 console.log(process.env.REACT_APP_BASE_URL);
@@ -69,18 +69,13 @@ class Gallery extends Component {
             <Modal.Header closeButton>
             </Modal.Header>
             <Modal.Body>
-             <ImageGallery 
-             showThumbnails={true}
-             thumbnailPosition ='top'
-              useBrowserFullscreen ={true}
-              lazyLoad={true}
-              items={this.state.curImages.map(img =>  {
-              return {
-                original: img,
-                thumbnail: img,
-              }
-             })} />
-
+              <GridGallery  images={this.state.curImages.map(img => {
+                return {
+                  src: img,
+                  thumbnail: img,
+                  thumbnailWidth: 290
+                }
+              })}/>
 
             </Modal.Body>
 

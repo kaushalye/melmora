@@ -273,6 +273,4 @@ html, body {
 .albumTitle{
   color: var(--highlighted-txt-color);
   text-align: center;
-  /* z-index: 999;
-  background-color: rgba(0, 0, 0, 0.8); */
 }

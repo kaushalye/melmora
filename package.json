@@ -10,14 +10,14 @@
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
-    "react-image-gallery": "^1.0.7",
+    "react-grid-gallery": "^0.5.5",
     "react-router-bootstrap": "^0.25.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "REACT_APP_BASE_URL=http://www.umaav.org.au react-scripts  --max_old_space_size=4096  start",
-    "build": "REACT_APP_BASE_URL=http://www.umaav.org.au react-scripts  --max_old_space_size=4096  build",
+    "start": "REACT_APP_BASE_URL=https://www.umaav.org.au react-scripts  --max_old_space_size=4096  start",
+    "build": "REACT_APP_BASE_URL=https://www.umaav.org.au react-scripts  --max_old_space_size=4096  build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
