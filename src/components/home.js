@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Carousel, Container} from 'react-bootstrap';
+import {Carousel, Container, Image} from 'react-bootstrap';
 import EventItems from './eventItems';
 
 const newsRoot =  `${process.env.REACT_APP_BASE_URL}/news`; 
@@ -91,7 +91,7 @@ class Home extends Component {
             </Container>
           </Container>
         </Container>
-        
+        <Container className="sponsor"> ANZ is a proud partner of Melmora <Image className="sponsorLogo"  src="/images/ANZ_DIGITAL_Flat_white+blue.png"/> </Container>
         <EventItems title='Upcoming events' images={this.state.upcomingNews}></EventItems>
         <EventItems title='Past events' images={this.state.pastNews}></EventItems>
 

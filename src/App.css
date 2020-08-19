@@ -274,3 +274,10 @@ html, body {
   color: var(--highlighted-txt-color);
   text-align: center;
 }
+
+.sponsor{
+  text-align: center;
+}
+.sponsorLogo{
+  max-height: 60px;
+}

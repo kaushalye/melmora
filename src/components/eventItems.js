@@ -29,7 +29,12 @@ class EventItems extends Component {
   }  
 
   render() {
+    if (this.props.images.length == 0 ) {
+      return (<Container></Container>);
+    }
+    
     return (
+
       <Container className="tileContainer" >
         <Container className="tileWide">
           <Container className="tileHeader"><i className="fas fa-calendar"></i>  {this.props.title} </Container>
@@ -54,7 +59,7 @@ class EventItems extends Component {
 
           </Modal> 
       </Container>
-
+  
     );
   }
 }
