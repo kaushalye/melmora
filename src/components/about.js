@@ -181,7 +181,7 @@ class About extends Component {
             return (
               <Container className="tile draw-border"> 
                 <Container className="tileHeader"><i className={stmnt.i} style= {{color: stmnt.color}}></i> {stmnt.title} </Container>
-            <Container className="tileBody"> {stmnt.txt}</Container>
+                <Container className="tileBody"> {stmnt.txt}</Container>
               </Container>
             );
           })

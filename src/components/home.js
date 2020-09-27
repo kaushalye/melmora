@@ -91,7 +91,7 @@ class Home extends Component {
             </Container>
           </Container>
         </Container>
-        <Container className="sponsor"> ANZ is a proud partner of Melmora <Image className="sponsorLogo"  src="/images/ANZ_DIGITAL_Flat_white+blue.png"/> </Container>
+        <Container className="sponsor"><a href="/partner-program">  ANZ is a proud partner of Melmora. Click here to know more.</a> <Image className="sponsorLogo"  src="/images/anz_logo.png"/> </Container>
         <EventItems title='Upcoming events' images={this.state.upcomingNews}></EventItems>
         <EventItems title='Past events' images={this.state.pastNews}></EventItems>
 

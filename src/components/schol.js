@@ -54,6 +54,7 @@ UMAAV scholarship program is still in its infancy but is steadily growing thanks
               <Container className="tileHeader"> How is the scholarship program funded? </Container>
               <Container className="tileBody">
               There are a number of annual activities conducted by UMAAV to raise funds, including the most popular Dinner Dance (winter event) and the Cricket Carnival (summer event). The profit earned from these events is debited to the scholarship fund. Apart from the scholarship fund, a number of individual sponsorships provided by the UMAAV members are also used to provide the scholarships.
+              Also check our <a href="/partner-program"> partner program </a>.
               </Container>
             </Container>
         </Container>

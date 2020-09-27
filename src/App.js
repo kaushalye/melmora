@@ -4,6 +4,7 @@ import Home from './components/home'
 import Gallery from './components/gallery'
 import Schol from './components/schol'
 import About from './components/about'
+import PartnerProgram from './components/partnerprogram'
 import Contact from './components/contact'
 import SubHeader from './components/subheader'
 import {
@@ -56,6 +57,9 @@ class App extends Component {
         <Switch>
             <Route path="/home">
               <Home/>
+            </Route>
+            <Route path="/partner-program">
+              <PartnerProgram/>
             </Route>
             <Route path="/gallery">
               <SubHeader subtitle='Gallery'/>
