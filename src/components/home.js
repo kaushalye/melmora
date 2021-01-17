@@ -23,10 +23,15 @@ class Home extends Component {
    */
   loadImages(dir, newsConfig) {
     const images = [];
-    let i;
-    for (i = newsConfig[dir]; i >= 1; i--) {
-      images.push(`${newsRoot}/${dir}/${i}.jpg`);
+    if (newsConfig[dir].trim() === "") {
+      return images;
     }
+    let i;
+    const imagenames = newsConfig[dir].split(",").reverse();
+
+    imagenames.forEach(function (imageName, index) {
+      images.push(`${newsRoot}/${imageName}.jpg`);
+    });
 
     return images;
   }

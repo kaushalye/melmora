@@ -17,14 +17,20 @@ class Schol extends Component {
           <Container className="tile draw-border"> 
             <Container className="tileHeader"> <i className="fas fa-paper-plane" style= {{color: 'lightgreen'}} /> Apply </Container>
             <Container className="tileBody"> We encourage students undergoing financial hardships due to their social and family
-circumstances to apply for the UMAAV scholarship via the application below. All students entering or currently enrolled in an undergraduate degree course in the University of Moratuwa are eligible to apply.<br/>[Applications are now closed for 2020] </Container>
+circumstances to apply for the UMAAV scholarship via the application below. All students entering or currently enrolled in an undergraduate degree course in the University of Moratuwa are eligible to apply.  
+<br/><br/>
+<a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc26FYDRL7uCHiB-cS2710b6y9s6T3dlrYgzloxaZ4WPPCY_w/viewform?usp=sf_link"> Applications for NEW Scholarships are now open for 2021.<br/>Please apply here <i className="fas fa-edit" style= {{color: 'red'}} /></a> 
+            </Container>
           </Container>
           <Container className="tile draw-border"> 
             <Container className="tileHeader">  <i className="fas fa-forward" style= {{color: 'orange'}} /> Extend </Container>
-            <Container className="tileBody"> If you are an existing scholarship recipient, you need to extend your scholarship by filling the application below. The scholarship committee will review your current circumstances before granting the extension. <br/>[Applications are now closed for 2020]  </Container>
+            <Container className="tileBody"> If you are an existing scholarship recipient, you need to extend your scholarship by filling the application below. The scholarship committee will review your current circumstances before granting the extension. 
+            <br/><br/>
+<a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfYAo-Lh-uqU6Bp-X7UHoh1e0a_R2EV7SpDo3hOERdz7su-Qg/viewform?gxids=7628"> Applications Scholarship Extensions are now open for 2021.<br/>Please apply here <i className="fas fa-edit" style= {{color: 'red'}} /></a> 
+             </Container>
           </Container>
           <Container className="tile draw-border"> 
-            <Container className="tileHeader">  <i className="fas fa-heart" style= {{color: 'red'}} /> Sponsor </Container>
+            <Container className="tileHeader">  <i className="fas fa-heart" style= {{color: 'pink'}} /> Sponsor </Container>
             <Container className="tileBody"> You can make a difference by sponsoring a student with only 25 AUD/month. UMAAV will take care of all the administrative tasks, such as application processing, selections and fund transfers.    </Container>
           </Container>
         </Container>
