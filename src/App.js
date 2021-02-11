@@ -6,6 +6,7 @@ import Schol from './components/schol'
 import About from './components/about'
 import PartnerProgram from './components/partnerprogram'
 import Contact from './components/contact'
+import Register from './components/register'
 import SubHeader from './components/subheader'
 import {
   BrowserRouter as Router,
@@ -46,6 +47,7 @@ class App extends Component {
               <Nav.Link href="/home">Home</Nav.Link>
               <Nav.Link href="/gallery">Gallery</Nav.Link>
               <Nav.Link href="/schol">Scholarship</Nav.Link>
+              <Nav.Link href="/register">Register</Nav.Link>
               <Nav.Link href="/about">About</Nav.Link>
               <Nav.Link href="/contact">Contact</Nav.Link>
               <Nav.Link href="https://www.facebook.com/groups/melmora" target="_blank">
@@ -68,6 +70,10 @@ class App extends Component {
             <Route path="/schol">
               <SubHeader subtitle='Scholarship'/>
               <Schol/>
+            </Route>
+            <Route path="/register">
+              <SubHeader subtitle='Register'/>
+              <Register/>
             </Route>
             <Route path="/about">
               <SubHeader subtitle='About'/>

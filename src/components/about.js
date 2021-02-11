@@ -13,161 +13,182 @@ const stmnts = [
 
 const coms = [
   {
+    name: "2020-2021",
+    bearers: `President: Mr. Susantha Liyanage
+    Secretary: Mr. Kumar Munasinghe
+    Vice President 1: Mr. Pushpika Gamage
+    Vice President 2: Dr. Malinda Kapuruge
+    Asst. Secretary: Mr. Mahesh Srirama
+    Treasurer: Mr. Jagath Dias
+    Asst Treasurer: Dr. Indika Meedeniya
+    Public Officer: Mr. Pradeep Mahawaththa
+    Editor: Dr. Rasika Amarasiri
+    Committee Member: Mr. Desmond Fernando
+    Committee Member: Mr. Karu Randeniya
+    Committee Member: Mr. Nishantha Rajapakshe
+    Committee Member: Mr. Indrajeewa Piyasena
+    Committee Member: Mr. Anuja Manchanayake
+    Committee Member: Mr. Saman Marasinghe
+    Committee Member: Mr. Prasad Udugampola
+    Committee Member: Ms. Nandika Kahaduwa
+    Senior Advisor: Dr. Don Rodrigo`,
+  },
+  {
     name: "2019-2020",
-    bearers: `President: Susantha Liyanage
-    Secretary: Kumar Munasinghe
-    Vice President 1: Indika Meedeniya
-    Vice President 2: Malinda Kapuruge
-    Asst. Secretary: Amila Gunathilaka
-    Treasurer: Jagath Dias
-    Asst Treasurer: Mahesh Sirimanne
-    Public Officer: Pushpika Gamage
-    Editor: Anuja Manchanayake
-    Committee Member: Desmond Fernando
-    Committee Member: Karu Randeniya
-    Committee Member: Nishantha Rajapakshe
-    Committee Member: Indrajeewa Piyasena
-    Committee Member: Loku Dasanayake
-    Committee Member: Saman Marasinghe
-    Committee Member: Pradeep Mahawaththa
-    Committee Member: Rasika Amarasiri
+    bearers: `President: Mr. Susantha Liyanage
+    Secretary: Mr. Kumar Munasinghe
+    Vice President 1: Dr. Indika Meedeniya
+    Vice President 2: Dr. Malinda Kapuruge
+    Asst. Secretary: Mr. Amila Gunathilaka
+    Treasurer: Mr. Jagath Dias
+    Asst Treasurer: Mr. Mahesh Srirama
+    Public Officer: Mr. Pushpika Gamage
+    Editor: Mr. Anuja Manchanayake
+    Committee Member: Mr. Desmond Fernando
+    Committee Member: Mr. Karu Randeniya
+    Committee Member: Mr. Nishantha Rajapakshe
+    Committee Member: Mr. Indrajeewa Piyasena
+    Committee Member: Mr. Loku Dasanayake
+    Committee Member: Mr. Saman Marasinghe
+    Committee Member: Mr. Pradeep Mahawaththa
+    Committee Member: Dr. Rasika Amarasiri
     Senior Advisor: Dr. Don Rodrigo`,
   },
   {
     name: "2018-2019",
-    bearers: `President:	Desmond Fernando
-    Secretary:	Indrajeewa Piyasena
-    Asst. Secretary:	Chanaka Rupasinghe
-    Vice President 1:	Malinda Kapuruge
-    Vice President 2:	Indika Meedeniya
-    Treasurer:	Jagath Dias
-    Asst. Treasurer:	Kumar Munasinghe
-    Public Officer:	Pushpika Gamage
-    Editor: Susantha Liyanage
-    Committee Member:	Saman Marasinghe
-    Committee Member:	Karu Randeniya
-    Committee Member:	Nishantha Rajapakshe
-    Committee Member:	Rasika Amarasiri
-    Committee Member:	Loku Dassanayake
-    Committee Member:	Amila Gunathilaka
-    Committee Member:	Anuja Manchanayaka
-    Committee Member:	Pradeep Mahawatta
+    bearers: `President:	Mr. Desmond Fernando
+    Secretary: Mr. Indrajeewa Piyasena
+    Asst. Secretary: Dr. Chanaka Rupasinghe
+    Vice President 1:	Dr. Malinda Kapuruge
+    Vice President 2:	Dr. Indika Meedeniya
+    Treasurer: Mr. Jagath Dias
+    Asst. Treasurer: Mr. Kumar Munasinghe
+    Public Officer:	Mr. Pushpika Gamage
+    Editor: Mr. Susantha Liyanage
+    Committee Member:	Mr. Saman Marasinghe
+    Committee Member:	Mr. Karu Randeniya
+    Committee Member:	Mr. Nishantha Rajapakshe
+    Committee Member:	Dr. Rasika Amarasiri
+    Committee Member:	Mr. Loku Dassanayake
+    Committee Member:	Mr. Amila Gunathilaka
+    Committee Member:	Mr. Anuja Manchanayaka
+    Committee Member:	Mr. Pradeep Mahawatta
     Senior Advisor: Dr. Don Rodrigo`,
   },
   {
   name: "2017-2018",
-  bearers: `President: Desmond Fernando
-    Secretary : Saman Marasinghe
-    Vice President 1: Susantha Liyanage
-    Vice President 2: Malinda Kapuruge
-    Asst. Secretary : Pushpika Gamage
-    Treasurer : Rasika Amarasiri
-    Asst. Treasurer: Indrajeewa Piyasena
-    Public Officer: Jagath Dias
-    Editor: Pradeep Mahawatta
-    Committee Member:	Amila Gunathilaka
-    Committee Member:	Suranji Athapatthu
-    Committee Member:	Nishantha Rajapakshe
-    Committee Member:	Indika Meedeniya
-    Committee Member:	Karu Randeniya
-    Committee Member:	Loku Dassanayake
-    Committee Member:	Chanaka Rupasinghe
-    Committee Member:	Kumar Munasinghe
+  bearers: `President: Mr. Desmond Fernando
+    Secretary : Mr. Saman Marasinghe
+    Vice President 1: Mr. Susantha Liyanage
+    Vice President 2: Dr. Malinda Kapuruge
+    Asst. Secretary : Mr. Pushpika Gamage
+    Treasurer : Dr. Rasika Amarasiri
+    Asst. Treasurer: Mr. Indrajeewa Piyasena
+    Public Officer: Mr. Jagath Dias
+    Editor: Mr. Pradeep Mahawatta
+    Committee Member:	Mr. Amila Gunathilaka
+    Committee Member:	Ms. Suranji Athapatthu
+    Committee Member:	Mr. Nishantha Rajapakshe
+    Committee Member:	Dr. Indika Meedeniya
+    Committee Member:	Mr. Karu Randeniya
+    Committee Member:	Mr. Loku Dassanayake
+    Committee Member:	Dr. Chanaka Rupasinghe
+    Committee Member:	Mr. Kumar Munasinghe
     Senior Advisor: Dr. Don Rodrigo
     Senior Advisor: Dr. Chandra Athaudage`,
   },
   {
   name: "2016-2017",
-  bearers: `President: Karu Randeniya
-    Secretary : Desmond Fernando
+  bearers: `President: Mr. Karu Randeniya
+    Secretary : Mr. Desmond Fernando
     Vice President 1: Dr. Rasika Amarasiri
-    Vice President 2: Saman Marasinghe
-    Asst. Secretary : Pradeep Mahawatta
-    Treasurer : Loku Dassanayake
+    Vice President 2: Mr. Saman Marasinghe
+    Asst. Secretary : Mr. Pradeep Mahawatta
+    Treasurer : Mr. Loku Dassanayake
     Asst. Treasurer: Dr. Chanaka Rupasinghe
-    Public Officer : Ajith Liyanage
+    Public Officer : Mr. Ajith Liyanage
     Editor: Dr. Malinda Kapuruge
-    Committee Member: Indrajeewa Piyasena
-    Committee Member: Rasika Weerasinghe
-    Committee Member: Jagath Dias
+    Committee Member: Mr. Indrajeewa Piyasena
+    Committee Member: Mr. Rasika Weerasinghe
+    Committee Member: Mr. Jagath Dias
     Committee Member: Dr. Indika Meedeniya
-    Committee Member: Prasad Udugampola
-    Committee Member: Nishantha Rajapakshe
+    Committee Member: Mr. Prasad Udugampola
+    Committee Member: Mr. Nishantha Rajapakshe
     Senior Advisor: Dr. Don Rodrigo
     Senior Advisor: Dr. Chandra Athaudage`,
   },
   {
     name: "2015-2016",
-    bearers: `President: Karu Randeniya
+    bearers: `President: Mr. Karu Randeniya
     Secretary : Dr. Indika Meedeniya
     Vice President 1: Dr. Chandra Athaudage
-    Vice President 2:  Saman Marasinghe
-    Asst. Secretary : Pushpika Gamage
-    Treasurer : Loku Dassanayake
+    Vice President 2:  Mr. Saman Marasinghe
+    Asst. Secretary : Mr. Pushpika Gamage
+    Treasurer : Mr. Loku Dassanayake
     Asst. Treasurer : Dr. Chanaka Rupasinghe
-    Public Officer : Anuja Manchanayake
+    Public Officer : Mr. Anuja Manchanayake
     Editor: Dr. Malinda Kapuruge
-    Committee Member: Pradeep Mahawatta
-    Committee Member: Rasika Weerasinghe
-    Committee Member: Desmond Fernando
-    Committee Member: Nishantha Rajapakshe
+    Committee Member: Mr. Pradeep Mahawatta
+    Committee Member: Mr. Rasika Weerasinghe
+    Committee Member: Mr. Desmond Fernando
+    Committee Member: Mr. Nishantha Rajapakshe
     Senior Advisor: Dr. Don Rodrigo`,
   },
   {
     name: "2014-2015",
-    bearers: `President: Nishantha Rajapakshe
+    bearers: `President: Mr. Nishantha Rajapakshe
     Secretary : Dr. Indika Meedeniya
     Vice President 1: Dr. Chandra Athaudage
-    Vice President 2: Saman Marasinghe
-    Asst. Secretary : Pushpika Gamage
-    Treasurer : Loku Dassanayake
-    Asst. Treasurer : Chanaka Rupasinghe
-    Public Officer : Anuja Manchanayake
+    Vice President 2: Mr. Saman Marasinghe
+    Asst. Secretary : Mr. Pushpika Gamage
+    Treasurer : Mr. Loku Dassanayake
+    Asst. Treasurer : Dr. Chanaka Rupasinghe
+    Public Officer : Mr. Anuja Manchanayake
     Editor: Dr. K.S.Vijayalayan
     Committee Member: Dr. Malinda Kapuruge
-    Committee Member: Pradeep Mahawatta
-    Committee Member: Rasika Weerasinghe
-    Committee Member: Desmond Fernando
-    Committee Member:	Loku Dassanayake
+    Committee Member: Mr. Pradeep Mahawatta
+    Committee Member: Mr. Rasika Weerasinghe
+    Committee Member: Mr. Desmond Fernando
+    Committee Member:	Mr. Loku Dassanayake
     Senior Advisor: Dr. Don Rodrigo`,
   },
   {
     name: " 2013-2014",
-    bearers: `President: Nishantha Rajapakshe
-    Secretary : Pradeep Mahawatta
+    bearers: `President: Mr. Nishantha Rajapakshe
+    Secretary : Mr. Pradeep Mahawatta
     Vice President 1: Dr. Chandra Athaudage
-    Vice President 2: Karu Randeniya
-    Asst. Secretary : Rasika Weerasinghe
+    Vice President 2: Mr. Karu Randeniya
+    Asst. Secretary : Mr. Rasika Weerasinghe
     Treasurer : Dr. Indika Meedeniya
-    Asst. Treasurer : Yasantha Perera
-    Public Officer : Anuja Manchanayake
+    Asst. Treasurer : Mr. Yasantha Perera
+    Public Officer : Mr. Anuja Manchanayake
     Editor: Dr. Malinda Kapuruge
     Committee Member: Dr. Rasika Amarasiri
-    Committee Member:	Loku Dassanayake
-    Committee Member: Desmond Fernando
-    Committee Member: Gayan Karunarathna
-    Committee Member: Champika Yatagama
+    Committee Member:	Mr. Loku Dassanayake
+    Committee Member: Mr. Desmond Fernando
+    Committee Member: Mr. Gayan Karunarathna
+    Committee Member: Mr. Champika Yatagama
     Senior Advisor: Dr. Don Rodrigo
-    Senior Advisor: Milroy Gunawardena`,
+    Senior Advisor: Mr. Milroy Gunawardena`,
   },
   {
     name: "2012-2013",
     bearers: `President: Dr. Chandra Athaudage
-    Secretary : Nishantha Rajapakshe
-    Vice President 1: Karu Randeniya
-    Vice President 2: Pradeep Mahawatta
-    Assistant Secretary : Anuja Manchanayake
+    Secretary : Mr. Nishantha Rajapakshe
+    Vice President 1: Mr. Karu Randeniya
+    Vice President 2: Mr. Pradeep Mahawatta
+    Assistant Secretary : Mr. Anuja Manchanayake
     Treasurer : Dr. Rasika Amarasiri
-    Assistant Treasurer : Yasantha Perera
-    Public Officer : Desmond Fernando
+    Assistant Treasurer : Mr. Yasantha Perera
+    Public Officer : Mr. Desmond Fernando
     Editor: Dr. Malinda Kapuruge
-    Committee Member: Indrajeewa Piyasena
+    Committee Member: Mr. Indrajeewa Piyasena
     Committee Member: Dr. Indika Meedeniya
-    Committee Member:	Loku Dassanayake
-    Committee Member: Gayan Karunarathna
-    Committee Member: Rasika Weerasinghe
+    Committee Member:	Mr. Loku Dassanayake
+    Committee Member: Mr. Gayan Karunarathna
+    Committee Member: Mr. Rasika Weerasinghe
     Senior Advisor: Dr. Don Rodrigo
-    Senior Advisor: Milroy Gunawardena`,
+    Senior Advisor: Mr. Milroy Gunawardena`,
     },
 ];
 

@@ -22,7 +22,7 @@ class Contact extends Component {
               <Col className='itemListName'><a href="http://groups.yahoo.com/neo/groups/melmora/info" target="self">melmora yahoo group</a></Col>
             </Row>
           </Container>
-        </Container>     
+        </Container>   
       </Container>
     );
   }
