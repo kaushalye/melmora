@@ -19,10 +19,10 @@ class PartnerProgram extends Component {
           <Container className="tileContainer" >
             <Container className="tile draw-border"> 
                   <Container className="tileHeader"><Image className="sponsorLogo"  src="/images/anz_logo.png"/></Container>
-                  <Container className="tileBody"> Please contact,<br/>  Mr. Harsha Karunaratna (ANZ): <a href="tel:0466330372">0466330372</a><br/> or <br/>Mr. Kuma Munasinghe (UMAAV): <br/><a href="tel:0425337093">0425337093</a></Container>
+                  <Container className="tileBody"> Please contact,<br/>Mr. Kuma Munasinghe (UMAAV): <br/><a href="tel:0425337093">0425337093</a></Container>
             </Container>
             <Container className="tile draw-border"> 
-                  <Container className="tileHeader" style={{fontSize: "x-large", paddingTop:"10px"}}>Bank of Melbourne</Container>
+                  <Container className="tileHeader" style={{fontSize: "x-large", paddingTop:"10px", paddingBottom:"15px"}}>Bank of Melbourne</Container>
                   <Container className="tileBody"> Please contact,<br/>  Mr. Loku Dasanayake (UMAAV): <br/><a href="tel:0414271860">0414271860</a></Container>
             </Container>
           </Container>

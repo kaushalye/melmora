@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Carousel, Container, Image} from 'react-bootstrap';
+import {Carousel, Container, Image, Row, Col} from 'react-bootstrap';
 import EventItems from './eventItems';
 
 const newsRoot =  `${process.env.REACT_APP_BASE_URL}/news`; 
@@ -14,13 +14,7 @@ class Home extends Component {
     this.loadImages = this.loadImages.bind(this);
   }
 
-  /**
-   * Expect to have a dir as follows
-   * /images/news
-   *            / upcoming
-   *            / past
-   * @param {} dir 
-   */
+
   loadImages(dir, newsConfig) {
     const images = [];
     if (newsConfig[dir].trim() === "") {
@@ -76,6 +70,9 @@ class Home extends Component {
         </Carousel>
         }
         </Container>
+        <Container className="sponsor">
+          <Image className="sponsorLogo" alt="ANZ" src="/images/anz_logo.png"/>is a proud partner of Melmora. <a href="/partner-program"> Click here to learn more.</a>
+        </Container>
         <Container className="tileContainer" >
           <Container className="tile draw-border"> 
             <Container className="tileHeader"> <i className="fas fa-history" style= {{color: 'lightgreen'}}/> History </Container>
@@ -96,7 +93,6 @@ class Home extends Component {
             </Container>
           </Container>
         </Container>
-        <Container className="sponsor"><a href="/partner-program">  ANZ is a proud partner of Melmora. Click here to know more.</a> <Image className="sponsorLogo"  src="/images/anz_logo.png"/> </Container>
         <EventItems title='Upcoming events' images={this.state.upcomingNews}></EventItems>
         <EventItems title='Past events' images={this.state.pastNews}></EventItems>
 

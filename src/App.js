@@ -48,6 +48,7 @@ class App extends Component {
               <Nav.Link href="/gallery">Gallery</Nav.Link>
               <Nav.Link href="/schol">Scholarship</Nav.Link>
               <Nav.Link href="/register">Register</Nav.Link>
+              <Nav.Link href="/partner-program">Partners</Nav.Link>
               <Nav.Link href="/about">About</Nav.Link>
               <Nav.Link href="/contact">Contact</Nav.Link>
               <Nav.Link href="https://www.facebook.com/groups/melmora" target="_blank">
@@ -61,6 +62,7 @@ class App extends Component {
               <Home/>
             </Route>
             <Route path="/partner-program">
+              <SubHeader subtitle='Partners'/>
               <PartnerProgram/>
             </Route>
             <Route path="/gallery">
@@ -86,7 +88,7 @@ class App extends Component {
             <Redirect from="/" to="/home" />
           </Switch>
           <Container className="footer fixed-bottom center">
-            <span>© 2020 University of Moratuwa Alumni Association-Victoria  - All rights reserved</span>
+            <span>© 2021 University of Moratuwa Alumni Association-Victoria  - All rights reserved</span>
           </Container>
         </Container>
       </Router>
