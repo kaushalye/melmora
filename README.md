@@ -19,7 +19,7 @@ npm start
 # How to deploy
 Obtain credentials from the web-admin for AWS account
 ```
- aws s3 sync build/ s3://umaav.org.au --profile umaav
+ aws s3 sync build/ s3://www.umaav.org.au --profile umaav
 ```
 
 # Gallery

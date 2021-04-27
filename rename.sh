@@ -5,7 +5,7 @@ workdir=$1
 
 
 i=1
-for f in `ls $workdir/*.jpg`
+for f in `ls $workdir/*.jpeg`
 do
   echo renaming "$f" to "$workdir/$i.jpg"
   mv -- "$f" "$workdir/$i.jpg"

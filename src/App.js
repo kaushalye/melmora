@@ -65,9 +65,9 @@ class App extends Component {
               <SubHeader subtitle='Partners'/>
               <PartnerProgram/>
             </Route>
-            <Route path="/gallery">
-              <SubHeader subtitle='Gallery'/>
-              <Gallery/>
+            <Route path="/gallery/:id?" component={Gallery}>
+              {/* <SubHeader subtitle='Gallery'/>
+              <Gallery/> */}
             </Route>
             <Route path="/schol">
               <SubHeader subtitle='Scholarship'/>
