@@ -17,10 +17,6 @@ class Contact extends Component {
               <Col className='itemListNamePosition col-3'><i className="fab fa-facebook-square"/>:</Col >
               <Col className='itemListName'><a href="https://www.facebook.com/groups/melmora" target="self">melmora facebook page</a></Col>
             </Row>
-            <Row> 
-              <Col className='itemListNamePosition col-3'><i className="fab fa-yahoo"/>:</Col >
-              <Col className='itemListName'><a href="http://groups.yahoo.com/neo/groups/melmora/info" target="self">melmora yahoo group</a></Col>
-            </Row>
           </Container>
         </Container>   
       </Container>

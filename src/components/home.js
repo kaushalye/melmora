@@ -93,7 +93,7 @@ class Home extends Component {
             </Container>
           </Container>
         </Container>
-        <EventItems title='News / Upcoming events' images={this.state.upcomingNews}></EventItems>
+        <EventItems className="upcomingevents" title='News / Upcoming events' images={this.state.upcomingNews}></EventItems>
         <EventItems title='Past events' images={this.state.pastNews}></EventItems>
 
       </Container>
