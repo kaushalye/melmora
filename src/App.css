@@ -209,10 +209,13 @@ html, body {
 }
 
 .tileContainer{
-  justify-content: space-evenly;
+  justify-content: flex-start; 
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+.tileContainerBGText {
+  color: black;
 }
 .subHeader {
   color: white;
@@ -282,6 +285,7 @@ html, body {
   padding: 0px;
 }
 .eventImage{
+  cursor: pointer;
   width: 290px;
   padding: 5px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.8);

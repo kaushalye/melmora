@@ -49,6 +49,8 @@ class EventItems extends Component {
               })
             }
           </Container>
+          <Container className="tileContainerBGText"> Click on the image to enlarge</Container>
+          
         </Container>
         <Modal size="xl" show={this.state.showModal} onHide={this.hideFullScreen}>
             <Modal.Header closeButton>
@@ -58,6 +60,7 @@ class EventItems extends Component {
             </Modal.Body>
 
           </Modal> 
+         
       </Container>
   
     );
