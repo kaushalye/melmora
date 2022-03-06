@@ -70,9 +70,8 @@ class Gallery extends Component {
         return (
          <Container key={i} className="eventImageContainer" >
            <a href={`/gallery/${item.name}`} >
-            <Image className="eventImage draw-border" src={imageUrl} style={{"pointer-events": "all"}}/> </a>
             <Container className="albumTitle" >{album} </Container>
-           
+            <Image className="eventImage draw-border" src={imageUrl} style={{"pointer-events": "all"}}/> </a>
            <Modal size="xl" show={this.state.showModal} onHide={this.hideAlbum} animation={false}>
             <Modal.Header closeButton>
             </Modal.Header>

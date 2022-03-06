@@ -297,6 +297,8 @@ html, body {
 .albumTitle{
   color: var(--highlighted-txt-color);
   text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
 }
 
 .sponsor{
