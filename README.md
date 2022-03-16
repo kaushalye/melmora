@@ -3,23 +3,23 @@
 
 # How to install
 ```
-npm install
+make install
 ```
 
 # How to run locally
 ```
-npm start
+make start
 ```
 
 # How to build
 ```
- npm run build
+ make build
 ```
 
 # How to deploy
 Obtain credentials from the web-admin for AWS account
 ```
- aws s3 sync build/ s3://www.umaav.org.au --profile umaav
+ make update
 ```
 
 # Gallery
