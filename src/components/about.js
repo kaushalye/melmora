@@ -13,6 +13,27 @@ const stmnts = [
 
 const coms = [
   {
+    name: "2021-2022",
+    bearers: `President: Mr. Susantha Liyanage
+    Secretary: Mr. Kumar Munasinghe
+    Vice President 1: Mr. Pushpika Gamage
+    Vice President 2: Dr. Malinda Kapuruge
+    Asst. Secretary: Mr. Mahesh Srirama
+    Treasurer: Mr. Jagath Dias
+    Asst Treasurer: Dr. Indika Meedeniya
+    Public Officer: Mr. Pradeep Mahawaththa
+    Editor: Dr. Rasika Amarasiri
+    Committee Member: Mr. Desmond Fernando
+    Committee Member: Mr. Karu Randeniya
+    Committee Member: Mr. Nishantha Rajapakshe
+    Committee Member: Mr. Indrajeewa Piyasena
+    Committee Member: Mr. Anuja Manchanayake
+    Committee Member: Mr. Saman Marasinghe
+    Committee Member: Mr. Prasad Udugampola
+    Committee Member: Ms. Nandika Kahaduwa
+    Senior Advisor: Dr. Don Rodrigo`,
+  },
+  {
     name: "2020-2021",
     bearers: `President: Mr. Susantha Liyanage
     Secretary: Mr. Kumar Munasinghe
