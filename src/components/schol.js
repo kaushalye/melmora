@@ -6,10 +6,10 @@ class Schol extends Component {
 
   render() { 
 
-    const scholUpdate = `Total paid:	Rs. 4.15 Million
-        Total scholarship:	77	
-        Active scholarships:	23	
-        Scholarship amount:	Rs. 3,000/month`;
+    const scholUpdate = `Total paid:	Rs. 6.47 Million
+        Total scholarships:	105	
+        Active scholarships:	27	
+        Scholarship amount:	Rs. 4,000/month`;
 
     return (
       <Container className="nopadding">
