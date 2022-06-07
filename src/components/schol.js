@@ -31,7 +31,10 @@ circumstances to apply for the UMAAV scholarship via the application below. All 
           </Container>
           <Container className="tile draw-border"> 
             <Container className="tileHeader">  <i className="fas fa-heart" style= {{color: 'pink'}} /> Sponsor </Container>
-            <Container className="tileBody"> You can make a difference by sponsoring a student with only 25 AUD/month. UMAAV will take care of all the administrative tasks, such as application processing, selections and fund transfers.    </Container>
+            <Container className="tileBody"> You can make a difference by sponsoring a student with only 25 AUD/month. UMAAV will take care of all the administrative tasks, such as application processing, selections and fund transfers. 
+            <br/><br/>
+            <a target="_blank" href="https://forms.gle/PtrWEHaKeaz34DaQA"> Register your interest as a sponsor<i className="fas fa-edit" style= {{color: 'red'}} /></a> 
+             </Container>
           </Container>
         </Container>
 

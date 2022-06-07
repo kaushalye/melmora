@@ -70,9 +70,9 @@ class Home extends Component {
         </Carousel>
         }
         </Container>
-        <Container className="sponsor">
+        {/* <Container className="sponsor">
           <Image className="sponsorLogo" alt="ANZ" src="/images/anz_logo.png"/>is a proud partner of Melmora. <a href="/partner-program"> Click here to learn more.</a>
-        </Container>
+        </Container> */}
         <Container className="tileContainer" >
           <Container className="tile draw-border"> 
             <Container className="tileHeader"> <i className="fas fa-history" style= {{color: 'lightgreen'}}/> History </Container>
