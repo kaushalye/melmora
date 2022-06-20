@@ -53,14 +53,14 @@ UMAAV scholarship program is still in its infancy but is steadily growing thanks
         
         <Container className="tileContainer" >
             <Container className="tileWide">
-              <Container className="tileHeader"> How are the scholarship recipients selected? </Container>
+              <Container className="tileHeader"> How the scholarship recipients are selected? </Container>
               <Container className="tileBody">
               The scholarship committee has framed a set of criteria to identify the most deserving cases among all the applications received. The criteria include not only the parameters to measure the financial difficulties faced by the applicant, but also his/her academic performance and engagement in extra-curricular activities. In addition, each applicant needs to be recommended by an academic staff member of UoM. The scholarship committee also cross-check the validity of information provided, through various reliable sources in Sri Lanka.Based on the outcome of the above process, well-deserved applicants are short listed. Finally the scholarship committee gather, discuss and select the most deserving cases from the aforementioned list and allocate scholarships. </Container>
             </Container>
         </Container>
         <Container className="tileContainer" >
             <Container className="tileWide">
-              <Container className="tileHeader"> How is the scholarship program funded? </Container>
+              <Container className="tileHeader"> How the scholarship program is funded? </Container>
               <Container className="tileBody">
               There are a number of annual activities conducted by UMAAV to raise funds, including the most popular Dinner Dance (winter event) and the Cricket Carnival (summer event). The profit earned from these events is debited to the scholarship fund. Apart from the scholarship fund, a number of individual sponsorships provided by the UMAAV members are also used to provide the scholarships.
               Also check our <a href="/partner-program"> partner program </a>.
