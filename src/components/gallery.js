@@ -54,9 +54,9 @@ class Gallery extends Component {
   render() {
 
     return (
-      <Container className="tileContainer">
+      <Container>
         {this.state.curAlbum == "" && // default gallery view
-          <Container >
+          <Container  className="tileContainer" >
             {this.state.albums.map((item, i) => {
               const imageUrl = `${galleryRoot}/${item.name}/1_tn.jpg`; // Show only the first image. Make sure that's a good one
               const album = item.name.replace(/_/g, ' ');
