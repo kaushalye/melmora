@@ -9,7 +9,7 @@ class Schol extends Component {
     const scholUpdate = `Total paid:	Rs. 6.47 Million
         Total scholarships:	105	
         Active scholarships:	27	
-        Scholarship amount:	Rs. 4,000/month`;
+        Scholarship amount:	Rs. 5,000/month`;
 
     return (
       <Container className="nopadding">
@@ -19,14 +19,14 @@ class Schol extends Component {
             <Container className="tileBody"> We encourage students undergoing financial hardships due to their social and family
 circumstances to apply for the UMAAV scholarship via the application below. All students entering or currently enrolled in an undergraduate degree course in the University of Moratuwa are eligible to apply.  
 <br/><br/>
-<a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSf21ol96XEEZ4M98gBNP1xhYeaJOFRbUxcmdyywGIAcF6V_Bg/viewform"> Applications for NEW Scholarships are now open for 2022.<br/>Please apply here <i className="fas fa-edit" style= {{color: 'red'}} /></a> 
+<a target="_blank" href="https://forms.gle/WtA9wPh7iuH5nk3V9"> Applications for NEW Scholarships are now open for 2023.<br/>Please apply here <i className="fas fa-edit" style= {{color: 'red'}} /></a> 
             </Container>
           </Container>
           <Container className="tile draw-border"> 
             <Container className="tileHeader">  <i className="fas fa-forward" style= {{color: 'orange'}} /> Extend </Container>
             <Container className="tileBody"> If you are an existing scholarship recipient, you need to extend your scholarship by filling the application below. The scholarship committee will review your current circumstances before granting the extension. 
             <br/><br/>
-<a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfYAo-Lh-uqU6Bp-X7UHoh1e0a_R2EV7SpDo3hOERdz7su-Qg/viewform?gxids=7628"> Applications to extend existing Scholarships are now open for 2022.<br/>Please apply here <i className="fas fa-edit" style= {{color: 'red'}} /></a> 
+<a target="_blank" href="https://forms.gle/2aCLmNbCX7LY5nQq5"> Applications to extend existing Scholarships are now open for 2023.<br/>Please apply here <i className="fas fa-edit" style= {{color: 'red'}} /></a> 
              </Container>
           </Container>
           <Container className="tile draw-border"> 
