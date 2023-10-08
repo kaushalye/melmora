@@ -85,10 +85,14 @@ class App extends Component {
               <SubHeader subtitle='Contact'/>
               <Contact/>
             </Route>
+            <Route path='/donate' component={() => {
+                window.location.href = 'https://pad.live/melmorascholpayment/';
+                return null;
+            }}/>
             <Redirect from="/" to="/home" />
           </Switch>
           <Container className="footer fixed-bottom center">
-            <span>© 2022 University of Moratuwa Alumni Association-Victoria  - All rights reserved</span>
+            <span>© 2023 University of Moratuwa Alumni Association-Victoria  - All rights reserved</span>
           </Container>
         </Container>
       </Router>

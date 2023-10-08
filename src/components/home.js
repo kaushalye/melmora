@@ -45,7 +45,7 @@ class Home extends Component {
   }
 
   render() {
-    const images = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"];
+    const images = ["2", "13", "1",  "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"];
     return (
       <Container className="nopadding">
         <Container className="nopadding">

@@ -6,8 +6,8 @@ class Schol extends Component {
 
   render() { 
 
-    const scholUpdate = `Total paid:	Rs. 6.47 Million
-        Total scholarships:	105	
+    const scholUpdate = `Total paid:	Rs. 7.4 Million
+        Total scholarships:	117	
         Active scholarships:	27	
         Scholarship amount:	Rs. 5,000/month`;
 
