@@ -42,6 +42,12 @@ aws s3 cp [LOCAL] s3://www.umaav.org.au/albums/[DESTINATION]]/  --profile umaav 
 aws s3 cp ~/Downloads/Melmora2022DD/ s3://www.umaav.org.au/albums/2022_Dinner_Dance/  --profile umaav --region ap-southeast-2 --recursive
 ```
 
+## Verify the files are there and thumbnails are created. 
+````
+aws s3 ls s3://www.umaav.org.au/albums/2024_Dinner_Dance/ --profile umaav --region ap-southeast-2
+```
+
+
 ## Update the config
 See the `./config/albums.json` file and udpate config by adding following entry. Here the `count` is the total number of files in the almbumn
   ```{
