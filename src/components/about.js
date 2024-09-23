@@ -13,6 +13,32 @@ const stmnts = [
 
 const coms = [
   {
+    name: "2024-2025",
+    bearers: `President: Mr. Saman Marasinghe
+    Secretary: Mr. Malitha Siriwardana
+    Vice President 1: Mr. Jagath Dias
+    Vice President 2: Dr. Malinda Kapuruge
+    Asst. Secretary: Dr. Indika Meedeniya
+    Treasurer: Dr. Senthooran Ilankaikone
+    Asst Treasurer: Mr. Akila Baduge
+    Public Officer: Mr. Prasanna Punchihewa
+    Editor: Dr. Rasika Amarasiri
+    Committee Member: Mr. Anuja Manchanayake
+    Committee Member: Mr. Kuma Munasinghe
+    Committee Member: Dr. Kasun Shanaka
+    Committee Member: Mr. Mahesh Srirama
+    Committee Member: Ms. Lamini Galappaththi
+    Committee Member: Ms. Nishadi Kumarasinghe
+    Committee Member: Ms. Hansi Rajapakse
+    Committee Member: Mr. Sajith Edirisinghe
+    Advisor: Mr. Nishantha Rajapakshe
+    Advisor: Mr. Karu Randeniya
+    Advisor: Mr. Desmond Fernando
+    Advisor: Mr. Susantha Liyanage
+    Advisor: Mr. Pushpika Gamage
+    Senior Advisor: Dr. Don Rodrigo`,
+  },
+  {
     name: "2023-2024",
     bearers: `President: Mr. Pushpika Gamage
     Secretary: Mr. Jagath Dias
