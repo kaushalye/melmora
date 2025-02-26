@@ -26,8 +26,8 @@ Obtain credentials from the web-admin for AWS account
 - Albums are added under `public/albums`
 - Each sub directory will create an album
 - Photos are expected to have sequential number from 1...n (sh rename.sh albums/ALBUM_NAME)
-- Create thumbnails using Quick Action (https://havecamerawilltravel.com/macos-automator-generate-thumbnails/) 
 - The album names and the image count is configured in public/config/albums.json
+- Thumbnaiuls are automatically created once uploaded to S3  (See below)
  
 
 # Update an album 

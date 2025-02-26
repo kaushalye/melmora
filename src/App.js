@@ -7,6 +7,7 @@ import About from './components/about'
 import PartnerProgram from './components/partnerprogram'
 import Contact from './components/contact'
 import Register from './components/register'
+import DonateBlood from './components/donateBlood'
 import SubHeader from './components/subheader'
 import {
   BrowserRouter as Router,
@@ -76,6 +77,10 @@ class App extends Component {
             <Route path="/register">
               <SubHeader subtitle='Register'/>
               <Register/>
+            </Route>
+            <Route path="/donate-blood">
+              <SubHeader subtitle='DonateBlood'/>
+              <DonateBlood/>
             </Route>
             <Route path="/about">
               <SubHeader subtitle='About'/>

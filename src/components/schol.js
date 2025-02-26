@@ -19,21 +19,21 @@ class Schol extends Component {
             <Container className="tileBody"> We encourage students undergoing financial hardships due to their social and family
 circumstances to apply for the UMAAV scholarship via the application below. All students entering or currently enrolled in an undergraduate degree course in the University of Moratuwa are eligible to apply.  
 <br/><br/>
-<a target="_blank" href="https://forms.gle/a1xJNJaGFnCPU9Fx5"> Applications for NEW Scholarships are now open for 2024.<br/>Please apply here <i className="fas fa-edit" style= {{color: 'red'}} /></a> 
+<a target="_blank" href="https://forms.gle/9SmQJWm1RFRoeREV6"> <i className="fas fa-edit" style= {{color: 'red'}} /> Application for NEW Scholarships in 2025 </a> 
             </Container>
           </Container>
           <Container className="tile draw-border"> 
             <Container className="tileHeader">  <i className="fas fa-forward" style= {{color: 'orange'}} /> Extend </Container>
-            <Container className="tileBody"> If you are an existing scholarship recipient, you need to extend your scholarship by filling the application below. The scholarship committee will review your current circumstances before granting the extension. 
+            <Container className="tileBody"> If you are an existing UMAAV scholarship recipient, you need to extend your scholarship by filling the application below. The scholarship committee will review your current circumstances before granting the extension. 
             <br/><br/>
-<a target="_blank" href="https://forms.gle/R4S9ahaV488Xe8fb6"> Applications to extend existing Scholarships are now open for 2024.<br/>Please apply here <i className="fas fa-edit" style= {{color: 'red'}} /></a> 
+<a target="_blank" href="https://forms.gle/YP1yXeXUXyNveEp96"> <i className="fas fa-edit" style= {{color: 'red'}} /> Application to extend existing Scholarships in 2025</a> 
              </Container>
           </Container>
           <Container className="tile draw-border"> 
             <Container className="tileHeader">  <i className="fas fa-heart" style= {{color: 'pink'}} /> Sponsor </Container>
-            <Container className="tileBody"> You can make a difference by sponsoring a student with only 25 AUD/month. UMAAV will take care of all the administrative tasks, such as application processing, selections and fund transfers. 
+            <Container className="tileBody"> You can make a difference by sponsoring a student with only 25 AUD/month. UMAAV will take care of all the administrative tasks, such as application processing, selections and fund transfers. If you need further assitance please reach out to us.
             <br/><br/>
-            <a target="_blank" href="https://forms.gle/PtrWEHaKeaz34DaQA"> Register your interest as a sponsor<i className="fas fa-edit" style= {{color: 'red'}} /></a> 
+            <a target="_blank" href="https://forms.gle/PtrWEHaKeaz34DaQA"> <i className="fas fa-edit" style= {{color: 'red'}} /> Register your interest as a sponsor </a> 
              </Container>
           </Container>
         </Container>
