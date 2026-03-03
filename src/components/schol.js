@@ -19,14 +19,14 @@ class Schol extends Component {
             <Container className="tileBody"> We encourage students undergoing financial hardships due to their social and family
 circumstances to apply for the UMAAV scholarship via the application below. All students entering or currently enrolled in an undergraduate degree course in the University of Moratuwa are eligible to apply.  
 <br/><br/>
-<a target="_blank" href="https://forms.gle/9SmQJWm1RFRoeREV6"> <i className="fas fa-edit" style= {{color: 'red'}} /> Application for NEW Scholarships in 2025 </a> 
+<a target="_blank" href="https://forms.gle/7mEqjX6N9hHL338V8"> <i className="fas fa-edit" style= {{color: 'red'}} /> Application for NEW Scholarships in 2026 </a> 
             </Container>
           </Container>
           <Container className="tile draw-border"> 
             <Container className="tileHeader">  <i className="fas fa-forward" style= {{color: 'orange'}} /> Extend </Container>
             <Container className="tileBody"> If you are an existing UMAAV scholarship recipient, you need to extend your scholarship by filling the application below. The scholarship committee will review your current circumstances before granting the extension. 
             <br/><br/>
-<a target="_blank" href="https://forms.gle/YP1yXeXUXyNveEp96"> <i className="fas fa-edit" style= {{color: 'red'}} /> Application to extend existing Scholarships in 2025</a> 
+<a target="_blank" href="https://forms.gle/uXJNgMsQUGVamisK8"> <i className="fas fa-edit" style= {{color: 'red'}} /> Application to extend existing Scholarships in 2026</a> 
              </Container>
           </Container>
           <Container className="tile draw-border"> 

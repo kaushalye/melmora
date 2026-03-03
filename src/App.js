@@ -102,7 +102,7 @@ class App extends Component {
             <Redirect from="/" to="/home" />
           </Switch>
           <Container className="footer fixed-bottom center">
-            <span>© 2023 University of Moratuwa Alumni Association-Victoria  - All rights reserved</span>
+            <span>© 2026 University of Moratuwa Alumni Association-Victoria  - All rights reserved</span>
           </Container>
         </Container>
       </Router>

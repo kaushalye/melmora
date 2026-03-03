@@ -39,7 +39,7 @@ sh rename.sh ./public/albums/[ALBUM_NAME]]
 This will automatically create thumbnails in the same directory in S3
 ```
 aws s3 cp [LOCAL] s3://www.umaav.org.au/albums/[DESTINATION]]/  --profile umaav --region ap-southeast-2  --recursive
-aws s3 cp ~/Downloads/Melmora2022DD/ s3://www.umaav.org.au/albums/2022_Dinner_Dance/  --profile umaav --region ap-southeast-2 --recursive
+aws s3 cp ./public/albums/2025_Dinner_Dance/ s3://www.umaav.org.au/albums/2025_Dinner_Dance/  --profile umaav --region ap-southeast-2 --recursive
 ```
 
 ## Verify the files are there and thumbnails are created. 
